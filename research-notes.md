@@ -71,6 +71,18 @@ Running log — hypotheses, open questions, and sources still to check. Not part
 - Need to check licensing/ethics for any existing public listening-history dataset before use —
   not yet researched.
 
+## v2.0 — paper complete (2026-08-06)
+
+Final polish pass: abstract rewritten to summarize all 9 sections (was written when the paper only
+had 8, then only partially updated after §5 was added); introduction now previews all three guiding
+questions with section pointers instead of just two; References header dropped the "working
+list — verify/complete" caveat since every citation now has a real source location (though the
+individual verification items below — Kalia primary source, Jyväskylä author byline — remain open
+and are not the same thing as "unsourced"). The paper is a complete, internally consistent
+literature-review-and-synthesis piece as of this version. Remaining work is the verification items
+in "Next steps" below and the decision on the empirical extension — neither blocks calling this
+draft complete.
+
 ## v1.1 addition (2026-08-06)
 
 Added new §5, "Illustrative trajectory: mapping age ranges to listening tendencies" — a

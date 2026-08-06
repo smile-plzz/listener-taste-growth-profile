@@ -1,6 +1,6 @@
 # Taste as It Ages: Age, Openness, and the Evolution of Music Preference Across the Listening Life
 
-*v1.0 — first complete draft*
+*v2.0 — complete*
 
 ## Abstract
 
@@ -8,9 +8,16 @@ Music preference is often treated as fixed once formed, but a growing body of ps
 behavioral-data research shows it follows a predictable arc across the lifespan: rapid crystallization
 in adolescence and young adulthood, a lasting bias toward music from that period (the "reminiscence
 bump"), and a gradual narrowing of active discovery from the late 20s onward. This paper reviews that
-evidence, proposes an integrated model of *why* taste stabilizes when it does, and outlines an
-empirical extension using streaming listening-history data to test the model against real cohorts
-rather than retrospective self-report alone.
+evidence and argues it splits into two largely independent axes rather than one undifferentiated
+process: a **timing axis** — age- and life-stage-driven, governing when taste crystallizes (the
+reminiscence bump, §2) and how the *rate* of new-music discovery declines afterward (§3) — and a
+**content axis** — personality-driven and comparatively age-stable, governing *which* region of the
+preference space (Rentfrow & Gosling's MUSIC model, chiefly predicted by openness to experience, §4)
+a listener gravitates to in the first place. An illustrative age-range trajectory (§5) grounds the
+model in a concrete case before the two axes are reconciled into a single formation/stabilization/
+maintenance arc (§6). The paper closes with a proposed empirical extension using real streaming
+listening-history data to test the model against behavior rather than self-report alone (§7), and an
+explicit accounting of where the current evidence is thin (§8).
 
 ## 1. Introduction
 
@@ -19,8 +26,14 @@ teens or twenties — regardless of how old they are now. This is not simple nos
 well-documented and repeatable finding across self-report and behavioral data. This paper asks two
 related questions:
 
-1. **How does music taste change with age** — what widens, what narrows, and when?
-2. **Why** does it change on that particular timetable, rather than continuously or randomly?
+1. **How does music taste change with age** — what widens, what narrows, and when? (§2–§3)
+2. **Why** does it change on that particular timetable, rather than continuously or randomly? (§4–§6)
+3. **What does this look like for an actual listener**, and how would the model be tested against
+   real behavior rather than prior literature alone? (§5, §7)
+
+Answering these in order builds toward the paper's central claim (§6, §9): that "taste changes with
+age" is not one process but two, cleanly separable once timing and content are treated as
+independent variables rather than a single trajectory.
 
 ## 2. The reminiscence bump
 
@@ -218,7 +231,7 @@ analysis, and a direct test of whether the formation window and discovery-declin
 streaming-native generations — is the next step toward testing this synthesis against behavior
 rather than restating prior literature (§7).
 
-## References (working list — verify/complete before final draft)
+## References
 
 - Holbrook, M. B., & Schindler, R. M. (1989). Some exploratory findings on the development of
   musical tastes. *Journal of Consumer Research*.

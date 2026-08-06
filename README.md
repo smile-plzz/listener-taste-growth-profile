@@ -12,8 +12,10 @@ age and music preference, and how that relationship evolves across a listener's 
 
 ## Status
 
-**v1.0 — first complete draft.** Literature-review-driven, theoretical piece (no primary data
-collection yet): introduction, reminiscence bump, discovery-decline behavior, the MUSIC personality
-model, a reconciliation of the two, limitations, and a conclusion. See `research-notes.md` for what's
-confirmed vs. still open, and for the empirical extension (listening-history-by-age-cohort analysis)
-proposed as future work but not yet started.
+**v2.0 — complete.** Literature-review-driven, theoretical piece (no primary data collection yet):
+introduction, reminiscence bump, discovery-decline behavior, the MUSIC personality model, an
+illustrative age-range listening trajectory, a reconciliation of the timing and content axes, a
+proposed empirical extension, limitations, and a conclusion. See `research-notes.md` for what's
+confirmed vs. still open (a couple of source-verification items remain) — the paper itself is
+finished as a synthesis piece; the empirical extension (listening-history-by-age-cohort analysis) is
+proposed future work, not started.
