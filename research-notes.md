@@ -71,6 +71,30 @@ Running log — hypotheses, open questions, and sources still to check. Not part
 - Need to check licensing/ethics for any existing public listening-history dataset before use —
   not yet researched.
 
+## v3.0 — genre/artist-level age data added (2026-08-06)
+
+Added new §6, "Broader evidence: genre- and artist-level age data" — a population-level survey/
+industry-data table (Nielsen, Luminate, gitnux.org, headphonesaddict.com, Defector Music) covering
+hip-hop, dance/pop, rock, country, classical, progressive rock, metal, and pop-punk age skews, read
+against the timing/content model. Notable findings pulled in: hip-hop/dance/pop skew sharply young
+(consistent with §3's discovery-decline curve); country/classical/rock skew older (consistent with
+bump-anchoring, §2); progressive rock and pop-punk both show *bidirectional* age traffic — prog's
+audience shifted measurably younger between a 2016 survey (~75% over 45) and a 2020 survey (63%
+under 45), and pop-punk sustains both a live 15–25 core (Warped Tour ~90% ages 15–25) and an
+acknowledged older nostalgia audience. This directly informed and validated the §5 illustrative
+case's framing of Blink-182 as a childhood/gateway entry point rather than evidence against the bump
+model.
+
+**Important caveat, carried into the paper itself (§6's closing note, and a new Limitations bullet
+in §9):** this section's sources are industry/survey aggregators, not peer review, and none report
+full sampling methodology (the progressive-rock figures in particular rest on one fan-run survey).
+Treat as directional corroboration of §2–§4's peer-reviewed model, not equivalent-weight evidence.
+
+Sections renumbered: old §6 (Reconciling) → §7, old §7 (Open questions) → §8, old §8 (Limitations)
+→ §9, old §9 (Conclusion) → §10. All in-text cross-references checked and updated across the whole
+document (verified via `grep -n '§[0-9]'` after edits — see the paper's version history for what
+changed).
+
 ## v2.0 — paper complete (2026-08-06)
 
 Final polish pass: abstract rewritten to summarize all 9 sections (was written when the paper only

@@ -1,6 +1,6 @@
 # Taste as It Ages: Age, Openness, and the Evolution of Music Preference Across the Listening Life
 
-*v2.0 — complete*
+*v3.0 — complete, with genre/artist-level age data*
 
 ## Abstract
 
@@ -13,11 +13,12 @@ process: a **timing axis** — age- and life-stage-driven, governing when taste 
 reminiscence bump, §2) and how the *rate* of new-music discovery declines afterward (§3) — and a
 **content axis** — personality-driven and comparatively age-stable, governing *which* region of the
 preference space (Rentfrow & Gosling's MUSIC model, chiefly predicted by openness to experience, §4)
-a listener gravitates to in the first place. An illustrative age-range trajectory (§5) grounds the
-model in a concrete case before the two axes are reconciled into a single formation/stabilization/
-maintenance arc (§6). The paper closes with a proposed empirical extension using real streaming
-listening-history data to test the model against behavior rather than self-report alone (§7), and an
-explicit accounting of where the current evidence is thin (§8).
+a listener gravitates to in the first place. An illustrative age-range trajectory (§5) and a
+population-level survey of genre- and artist-level age demographics (§6) ground the model in
+concrete cases before the two axes are reconciled into a single formation/stabilization/maintenance
+arc (§7). The paper closes with a proposed empirical extension using real streaming listening-history
+data to test the model against behavior rather than self-report alone (§8), and an explicit
+accounting of where the current evidence is thin (§9).
 
 ## 1. Introduction
 
@@ -27,11 +28,11 @@ well-documented and repeatable finding across self-report and behavioral data. T
 related questions:
 
 1. **How does music taste change with age** — what widens, what narrows, and when? (§2–§3)
-2. **Why** does it change on that particular timetable, rather than continuously or randomly? (§4–§6)
-3. **What does this look like for an actual listener**, and how would the model be tested against
-   real behavior rather than prior literature alone? (§5, §7)
+2. **Why** does it change on that particular timetable, rather than continuously or randomly? (§4–§7)
+3. **What does this look like for an actual listener and at population scale**, and how would the
+   model be tested against real behavior rather than prior literature alone? (§5–§6, §8)
 
-Answering these in order builds toward the paper's central claim (§6, §9): that "taste changes with
+Answering these in order builds toward the paper's central claim (§7, §10): that "taste changes with
 age" is not one process but two, cleanly separable once timing and content are treated as
 independent variables rather than a single trajectory.
 
@@ -144,10 +145,58 @@ that punk/Britpop taste was *replaced* by prog — under the bump model (§2), B
 plausibly remain the listener's most emotionally load-bearing music even while prog dominates active,
 present-day listening (a distinction between preference *content that stays* and preference *content
 that's currently being actively added to*). And it is a single illustrative case, not a validated
-pattern — see §7 for the actual empirical test this kind of trajectory would need before treating it
+pattern — see §8 for the actual empirical test this kind of trajectory would need before treating it
 as generalizable rather than anecdotal.
 
-## 6. Reconciling the effects
+## 6. Broader evidence: genre- and artist-level age data
+
+§5 grounds the model in one illustrative case. This section widens the lens to population-level
+survey/industry data on which genres and artists actually skew toward which ages — the closest
+available substitute, short of the cohort analysis proposed in §8, for checking whether the
+timing/content model generalizes past a single trajectory.
+
+**Genre skews by age (survey/industry data):**
+
+| Genre | Age skew | Data point |
+|---|---|---|
+| Hip-hop/rap | Young, sharply so | Most-liked genre for ages 12–35; 54% of 20–24-year-olds say they generally like it, vs. 5% of over-55s. |
+| Dance/pop | Young | Under-indexes with older age groups; over-indexes with younger ones, alongside hip-hop. |
+| Rock (mainstream) | Older-skewing | Under-indexed by younger age groups relative to hip-hop/dance/pop; still a large audience overall (~20.5% of US album sales, 2022). |
+| Country | Older, and gendered | 56% of country fans are 45+; audience skews 62% female (2022 Luminate data). |
+| Classical | Bimodal, older-weighted | 29% of the classical audience is under 35, but the majority is still 55+ — a real younger minority coexists with an older majority. |
+| Progressive rock | Aging, but shifting younger | A 2016 survey found ~75% of prog-rock-station listeners were over 45; by a 2020 survey the same genre's audience had shifted to 63% under 45 — a genre that, at least by these two data points, is *not* simply aging in place with its original cohort, but partly refreshing. |
+| Metal (broadly) | Younger-preferred on average, but durable | General preference surveys find metal more preferred by younger listeners and disliked by older ones on average, yet major metal festivals routinely show mixed-age crowds with a significant 40–60+ contingent — average preference and committed-fan retention are not the same measurement. |
+| Pop-punk | Young core, dual-track nostalgia | Warped Tour, the genre's flagship festival, was ~90% ages 15–25 at its last edition; but pop-punk also functions as a "gateway" genre for new young listeners *and* a nostalgia genre for the cohort that was 15–25 when it first broke — two different audiences consuming the same catalog for different reasons. |
+
+**Reading this against the model (§2–§4, §6):** the genre table is broadly consistent with the
+timing/content framework, with one instructive complication. Hip-hop, dance, and pop's youth skew
+fits straightforwardly with §3's discovery-decline curve — these are, by most measures, the genres
+most tied to *current* chart activity, so an audience that has stopped actively discovering new
+mainstream music will simply show up less in their listenership. Country and (mainstream) rock's
+older skew is consistent with bump-anchoring (§2): both genres' commercial peaks are further in the
+past, so their present-day audience disproportionately reflects listeners whose formation window
+overlapped with that peak, still returning to it.
+
+The complication is progressive rock and, more sharply, pop-punk: both show real *bidirectional* age
+traffic — prog picking up a measurably younger audience between 2016 and 2020, pop-punk sustaining
+both a live 15–25 core and an openly acknowledged nostalgia audience for the cohort that is now
+30–40+. This is exactly what §7's reconciliation should predict once life-stage and streaming-era
+access are taken seriously as separate from raw age (§9's streaming-era-confound limitation): a
+genre's audience-age profile is not simply "old genre, old audience" but a mix of (a) bump-anchored
+returners, (b) new discovery by younger listeners for whom that back-catalog is now trivially
+accessible via streaming, and (c) whatever the genre's chart-era demographic was doing at its
+commercial peak. The pop-punk case in §5 (Blink-182 as a childhood/pre-teen entry point) sits inside
+category (b): the genre functioning as an accessible on-ramp for a listener who hasn't yet reached
+the bump-formation window, not evidence against it.
+
+**Caveat on this section's own sourcing:** every figure above comes from industry/survey aggregators
+(Nielsen, Luminate, gitnux.org, headphonesaddict.com, a single fan-run Defector Music survey for the
+progressive-rock figures) rather than peer-reviewed academic sources, and none of them report
+sampling methodology in enough detail to assess representativeness. Treat this table as directionally
+informative — plausible enough to motivate the reconciliation above — not as evidence of the same
+weight as §2–§4's peer-reviewed citations. This is flagged again in §9.
+
+## 7. Reconciling the effects
 
 Put together, the reminiscence bump and the discovery-decline finding describe the same arc from two
 angles:
@@ -166,7 +215,7 @@ on what's measured: preference *content* stays remarkably stable once formed (bu
 preference *breadth/discovery behavior* has a real, largely monotonic decline that only loosely tracks
 calendar age and more directly tracks life-stage variables (partnering, parenthood, career demands).
 
-## 7. Open questions / proposed empirical extension
+## 8. Open questions / proposed empirical extension
 
 The above is a synthesis of prior literature, not new data. To test it rather than restate it, a
 natural next step is a **cohort analysis on real listening-history data** (e.g., Spotify extended
@@ -184,7 +233,7 @@ See [`research-notes.md`](../research-notes.md) for the running list of hypothes
 questions (most listening-history exports are single-user and not population-scale without
 partnership access), and sources still to review.
 
-## 8. Limitations
+## 9. Limitations
 
 - **Western sourcing, unevenly offset.** Kalia (2015) and Rentfrow & Gosling's MUSIC model (2003,
   2012) are both built on primarily U.S. samples. The Jyväskylä 2025 study is a genuine improvement
@@ -200,7 +249,7 @@ partnership access), and sources still to review.
   any era) in ways the existing data cannot speak to. Whether the age-33 stabilization point — or the
   reminiscence-bump window itself — holds for a streaming-native generation is an open empirical
   question, not something this literature review can resolve.
-- **Correlation vs. mechanism.** The paper's central reconciliation (§6) — bounded formation window,
+- **Correlation vs. mechanism.** The paper's central reconciliation (§7) — bounded formation window,
   then stabilization, then maintenance — is a plausible synthesis of the cited findings, not a
   independently tested causal model. The life-stage-vs-age distinction in §3 (children accelerating
   decline regardless of age) is the strongest available evidence that age is a proxy rather than a
@@ -209,8 +258,14 @@ partnership access), and sources still to review.
   personality/age dissociation in §4 (Setti & Kahn, 2024) and the age-33 discovery-decline figure in
   §3 (Kalia, 2015, itself only secondary-sourced here — see the sourcing note in §3). Neither should
   be treated as consensus findings until corroborated by additional sources.
+- **Industry/survey data, not peer review (§6).** The genre- and artist-level age table in §6 draws
+  on Nielsen, Luminate, and web-aggregator sources (gitnux.org, headphonesaddict.com) plus a single
+  fan-run survey (Defector Music) for the progressive-rock figures specifically. None report full
+  sampling methodology. It is useful as directional, population-scale corroboration of the
+  peer-reviewed model in §2–§4, but should not be weighted as equivalent evidence — a genuine
+  academic genre-demographics survey, if located, should replace or supplement it.
 
-## 9. Conclusion
+## 10. Conclusion
 
 Music taste does change with age, but not as a single undifferentiated process — the evidence
 reviewed here separates cleanly into two axes. **Timing** is age-driven: a bounded developmental
@@ -229,7 +284,7 @@ life once formed" are not competing claims — they describe different variables
 predictable, life-stage-modulated schedule. The open empirical work — real listening-history cohort
 analysis, and a direct test of whether the formation window and discovery-decline timetable hold for
 streaming-native generations — is the next step toward testing this synthesis against behavior
-rather than restating prior literature (§7).
+rather than restating prior literature (§8).
 
 ## References
 
@@ -259,3 +314,14 @@ rather than restating prior literature (§7).
   Remains the Same," https://projects.ori.org/lrg/PDFs_papers/RentfrowEtal2012MUSICReplicationMP.pdf
 - Setti, F., & Kahn, J. H. (2024). Evaluating how facets of openness to experience predict music
   preference. *Musicae Scientiae*. https://journals.sagepub.com/doi/10.1177/10298649231174751
+- Genre-/artist-level age demographics (§6, industry/survey sourcing — see the caveat at the end of
+  §6 and the corresponding Limitations bullet):
+  - Hip-hop/rap age skew, Nielsen 2023 data via headphonesaddict.com:
+    https://headphonesaddict.com/rap-and-hip-hop-statistics/
+  - Rock/country/classical age breakdowns via gitnux.org's aggregated genre statistics:
+    https://gitnux.org/music-genre-statistics/ and headphonesaddict.com:
+    https://headphonesaddict.com/music-genre-statistics/
+  - Progressive rock 2016 vs. 2020 age-demographic shift: Defector Music (2020), "Progressive Rock
+    Demographics 2020." https://defectormusic.wordpress.com/2020/04/13/progressive-rock-demographics-2020/
+  - Pop-punk/Warped Tour and Blink-182 audience-age framing: Miami New Times, "Gen Z Can't Get Enough
+    of Blink-182 and the Pop-Punk Resurgence," https://www.miaminewtimes.com/music/blink-182-and-gen-z-fans-20244443/
