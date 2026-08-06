@@ -114,7 +114,27 @@ undifferentiated sense, and more: a mostly-fixed personality-driven preference *
 most actively during a bounded developmental window (§2), after which sampling — not the underlying
 region — tapers off (§3).
 
-## 5. Reconciling the effects
+## 5. Illustrative trajectory: mapping age ranges to listening tendencies
+
+The mechanisms in §2–§4 are easier to see against a concrete trajectory than in the abstract. Take a
+composite (illustrative, not a real individual's clinical case) listener profile built from a common
+pattern reported anecdotally and consistent with the literature above:
+
+| Age range | Typical genre pull | Example artists | What §2–§4 predicts is happening |
+|---|---|---|---|
+| Childhood / pre-teen (~8–12) | High-energy, hook-driven, often peer- or sibling-introduced pop-punk | Blink-182 | Pre-bump: taste is still largely inherited/ambient (family, older siblings, radio) rather than self-selected. Pop-punk's simple, high-energy, rebellious-but-safe register is a common "gateway" register at this age — an early, low-cost signal of independence before real peer-driven identity formation kicks in. |
+| Teenage (~13–18) | Britpop / melodic guitar rock with strong lyrical/cultural identity | Blur, Oasis | This is the **reminiscence-bump formation window** (§2) — the period Holbrook & Schindler and the Jyväskylä study both center on. Genre choice here is doing identity work, not just aesthetic work: picking a "side" (Blur vs. Oasis was a literal tabloid rivalry) is exactly the kind of peer-anchored, socially-legible taste-marking §2's "identity formation" mechanism describes. Whatever gets adopted here is disproportionately likely to stay emotionally load-bearing for life. |
+| Adulthood (~late 20s onward) | Progressive/technical, harmonically and structurally complex rock and metal | Dream Theater, Porcupine Tree, Tool | Consistent with §4: this register sits squarely in the MUSIC model's **Sophisticated** and **Intense** dimensions, both of which load most heavily onto **openness to experience**. Rather than "moving on" from the teenage genre, this reads as the content axis (§4) asserting itself once the discovery-*rate* has slowed (§3) — the listener isn't sampling broadly anymore, but what they do actively pursue skews toward more structurally complex material, the pattern openness-driven listeners consistently show regardless of age. |
+
+Two things this trajectory does **not** show, and shouldn't be read as showing: it is not evidence
+that punk/Britpop taste was *replaced* by prog — under the bump model (§2), Blur and Oasis very
+plausibly remain the listener's most emotionally load-bearing music even while prog dominates active,
+present-day listening (a distinction between preference *content that stays* and preference *content
+that's currently being actively added to*). And it is a single illustrative case, not a validated
+pattern — see §7 for the actual empirical test this kind of trajectory would need before treating it
+as generalizable rather than anecdotal.
+
+## 6. Reconciling the effects
 
 Put together, the reminiscence bump and the discovery-decline finding describe the same arc from two
 angles:
@@ -133,7 +153,7 @@ on what's measured: preference *content* stays remarkably stable once formed (bu
 preference *breadth/discovery behavior* has a real, largely monotonic decline that only loosely tracks
 calendar age and more directly tracks life-stage variables (partnering, parenthood, career demands).
 
-## 6. Open questions / proposed empirical extension
+## 7. Open questions / proposed empirical extension
 
 The above is a synthesis of prior literature, not new data. To test it rather than restate it, a
 natural next step is a **cohort analysis on real listening-history data** (e.g., Spotify extended
@@ -151,7 +171,7 @@ See [`research-notes.md`](../research-notes.md) for the running list of hypothes
 questions (most listening-history exports are single-user and not population-scale without
 partnership access), and sources still to review.
 
-## 7. Limitations
+## 8. Limitations
 
 - **Western sourcing, unevenly offset.** Kalia (2015) and Rentfrow & Gosling's MUSIC model (2003,
   2012) are both built on primarily U.S. samples. The Jyväskylä 2025 study is a genuine improvement
@@ -167,7 +187,7 @@ partnership access), and sources still to review.
   any era) in ways the existing data cannot speak to. Whether the age-33 stabilization point — or the
   reminiscence-bump window itself — holds for a streaming-native generation is an open empirical
   question, not something this literature review can resolve.
-- **Correlation vs. mechanism.** The paper's central reconciliation (§5) — bounded formation window,
+- **Correlation vs. mechanism.** The paper's central reconciliation (§6) — bounded formation window,
   then stabilization, then maintenance — is a plausible synthesis of the cited findings, not a
   independently tested causal model. The life-stage-vs-age distinction in §3 (children accelerating
   decline regardless of age) is the strongest available evidence that age is a proxy rather than a
@@ -177,7 +197,7 @@ partnership access), and sources still to review.
   §3 (Kalia, 2015, itself only secondary-sourced here — see the sourcing note in §3). Neither should
   be treated as consensus findings until corroborated by additional sources.
 
-## 8. Conclusion
+## 9. Conclusion
 
 Music taste does change with age, but not as a single undifferentiated process — the evidence
 reviewed here separates cleanly into two axes. **Timing** is age-driven: a bounded developmental
@@ -196,7 +216,7 @@ life once formed" are not competing claims — they describe different variables
 predictable, life-stage-modulated schedule. The open empirical work — real listening-history cohort
 analysis, and a direct test of whether the formation window and discovery-decline timetable hold for
 streaming-native generations — is the next step toward testing this synthesis against behavior
-rather than restating prior literature (§6).
+rather than restating prior literature (§7).
 
 ## References (working list — verify/complete before final draft)
 

@@ -71,6 +71,16 @@ Running log — hypotheses, open questions, and sources still to check. Not part
 - Need to check licensing/ethics for any existing public listening-history dataset before use —
   not yet researched.
 
+## v1.1 addition (2026-08-06)
+
+Added new §5, "Illustrative trajectory: mapping age ranges to listening tendencies" — a
+composite/illustrative case (not a real validated data point) walking childhood pop-punk (Blink-182)
+→ teenage Britpop (Blur, Oasis, the bump-formation window) → adult progressive rock/metal (Dream
+Theater, Porcupine Tree, Tool), mapped onto the timing axis (§2/§3) and content axis (§4). Explicitly
+flagged in the paper as illustrative/anecdotal, not a validated pattern — the real test of whether
+this generalizes is the empirical extension in §7 (now renumbered from §6 to make room for §5).
+All section numbers 6–9 shifted by one from v1.0; cross-references updated throughout.
+
 ## v1.0 status (2026-08-06)
 
 Paper is now a complete first draft: introduction, reminiscence bump (§2), discovery-decline (§3,
