@@ -71,11 +71,22 @@ Running log — hypotheses, open questions, and sources still to check. Not part
 - Need to check licensing/ethics for any existing public listening-history dataset before use —
   not yet researched.
 
+## v1.0 status (2026-08-06)
+
+Paper is now a complete first draft: introduction, reminiscence bump (§2), discovery-decline (§3,
+with an explicit sourcing caveat since Kalia 2015 remains secondary-sourced only), MUSIC
+model/openness (§4), reconciliation (§5), proposed empirical extension (§6), limitations (§7,
+written into the paper itself — Western sourcing imbalance across the three empirical pillars,
+streaming-era confound, correlation-vs-mechanism, single-source claims), and conclusion (§8).
+
 ## Next steps
 
 - Verify the Kalia (2015) Spotify/Echo Nest finding against a primary source if the original
-  Skynet & Ebert post is still accessible, rather than relying solely on secondary coverage.
-- Write the limitations paragraph (cross-cultural sourcing, streaming-era generational confound)
-  into the paper itself, not just here.
+  Skynet & Ebert post is still accessible, rather than relying solely on secondary coverage —
+  still open, flagged in the paper's §3 and §7.
+- Confirm the specific author byline for the 2025 Jyväskylä *Memory* study before citing a name
+  in-text (currently cited by institution/journal/DOI only).
+- Review the Malaysia-based MUSIC-model replication mentioned in §7 in more depth if the
+  cross-cultural section needs strengthening.
 - Decide whether this stays a pure literature-review/theory paper or gets the empirical extension —
-  ask the user once the draft has had a first read-through.
+  ask the user now that a complete draft exists.

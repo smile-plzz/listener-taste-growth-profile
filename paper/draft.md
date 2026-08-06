@@ -1,6 +1,6 @@
 # Taste as It Ages: Age, Openness, and the Evolution of Music Preference Across the Listening Life
 
-*Working draft — v0.2*
+*v1.0 — first complete draft*
 
 ## Abstract
 
@@ -33,7 +33,9 @@ replicates the effect using autobiographical-memory methodology rather than pure
 
 The clearest recent evidence on *timing and gender* comes from a 2025 global study out of the
 University of Jyväskylä's Center of Excellence in Music, Mind, Body and Brain (published in
-*Memory*, Frühholz et al./team — see references), which asked nearly 2,000 participants across 84
+*Memory* — see references for the full citation; specific author byline not yet confirmed against
+the journal record, so cite the DOI/journal directly rather than a name until verified), which asked
+nearly 2,000 participants across 84
 countries to identify the single piece of music most personally meaningful to them. Aggregated
 across the sample, meaningfulness follows an inverted-U shape peaking around **age 17**, but the
 peak location itself is gendered: **men peak earlier, at ~15.9**, with a bump that stays stable into
@@ -64,8 +66,16 @@ metrics) found active discovery of new/mainstream music rises through the teens,
 steadily through the 20s, with listeners statistically settling into a stable, non-expanding
 repertoire by around **age 33**. The decline is not identical across groups: it is faster for men
 than women, and the arrival of children predicts a sharp drop in mainstream/new-music listening
-regardless of the listener's age at the time — suggesting the mechanism is at least partly about
-*available attention and lifestyle bandwidth*, not age itself.
+regardless of the listener's age at the time — sometimes described informally as a "parent tax" on
+cultural relevance — suggesting the mechanism is at least partly about *available attention and
+lifestyle bandwidth*, not age itself.
+
+*Sourcing note:* Kalia's original analysis was published on the *Skynet & Ebert* blog and is widely
+cited (Hypebot, WNYC, NME, and others all covered it at the time), but the original post could not be
+directly re-verified while drafting this section — it is currently known only through secondary
+coverage, most substantively statsignificant.com's 2024 statistical re-analysis of the same claim.
+Treat the age-33 figure as well-corroborated by repetition across outlets but not yet confirmed
+against Kalia's primary data or methodology section.
 
 This distinction matters: age may be a proxy for several independent forces (identity stabilizing,
 free time shrinking, social contexts that introduce new music becoming less frequent) rather than a
@@ -140,6 +150,53 @@ streaming history, Last.fm scrobbles) that can separate:
 See [`research-notes.md`](../research-notes.md) for the running list of hypotheses, data-access
 questions (most listening-history exports are single-user and not population-scale without
 partnership access), and sources still to review.
+
+## 7. Limitations
+
+- **Western sourcing, unevenly offset.** Kalia (2015) and Rentfrow & Gosling's MUSIC model (2003,
+  2012) are both built on primarily U.S. samples. The Jyväskylä 2025 study is a genuine improvement
+  (84 countries), but it measures *personal meaningfulness*, not the same construct as discovery
+  behavior (Kalia) or preference structure (MUSIC) — so the paper's cross-cultural support is uneven
+  across its three empirical pillars, strongest for §2, essentially untested for §3, and only
+  partially tested for §4 (a Malaysia-based replication of the MUSIC model exists but is not yet
+  reviewed here in detail).
+- **Streaming-era confound.** Nearly all cited discovery-behavior data (Kalia, 2015) predates or
+  sits early in music streaming's maturity. A 20-year-old today has near-frictionless access to
+  entire back catalogs that a 20-year-old in the pre-streaming era did not; this could change what
+  "discovery" even means (finding new-to-the-world music vs. finding new-to-the-listener music from
+  any era) in ways the existing data cannot speak to. Whether the age-33 stabilization point — or the
+  reminiscence-bump window itself — holds for a streaming-native generation is an open empirical
+  question, not something this literature review can resolve.
+- **Correlation vs. mechanism.** The paper's central reconciliation (§5) — bounded formation window,
+  then stabilization, then maintenance — is a plausible synthesis of the cited findings, not a
+  independently tested causal model. The life-stage-vs-age distinction in §3 (children accelerating
+  decline regardless of age) is the strongest available evidence that age is a proxy rather than a
+  direct cause, but it is one dataset's finding, not a replicated causal claim.
+- **Single-source claims.** Two load-bearing claims in this draft rest on one paper each: the
+  personality/age dissociation in §4 (Setti & Kahn, 2024) and the age-33 discovery-decline figure in
+  §3 (Kalia, 2015, itself only secondary-sourced here — see the sourcing note in §3). Neither should
+  be treated as consensus findings until corroborated by additional sources.
+
+## 8. Conclusion
+
+Music taste does change with age, but not as a single undifferentiated process — the evidence
+reviewed here separates cleanly into two axes. **Timing** is age-driven: a bounded developmental
+window (roughly the teens through mid-20s, with a gendered split in exact peak — earlier and more
+stable for men, later with a stronger recency effect for women) is when taste crystallizes and gets
+disproportionately emotionally weighted, after which the *rate* of active discovery declines, more
+tightly tied to life-stage variables like partnering and parenthood than to calendar age itself.
+**Content** is comparatively age-independent: which region of the preference space (the MUSIC
+model's Mellow/Unpretentious/Sophisticated/Intense/Contemporary dimensions) a listener gravitates to
+in the first place appears to be governed chiefly by stable personality traits, especially openness
+to experience, rather than by how old that listener currently is.
+
+The practical upshot is that "people's taste changes as they age" and "people's taste is set for
+life once formed" are not competing claims — they describe different variables. What a listener
+*likes* is set early and holds; how much *new* material they actively sample declines on a
+predictable, life-stage-modulated schedule. The open empirical work — real listening-history cohort
+analysis, and a direct test of whether the formation window and discovery-decline timetable hold for
+streaming-native generations — is the next step toward testing this synthesis against behavior
+rather than restating prior literature (§6).
 
 ## References (working list — verify/complete before final draft)
 
