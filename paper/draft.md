@@ -45,10 +45,9 @@ even decades later. Holbrook & Schindler's foundational 1989 study put the peak 
 around age 23.5. Later cross-sectional work (Jakubowski, Eerola, Tillmann, Perrin & Heine, 2020)
 replicates the effect using autobiographical-memory methodology rather than pure preference ratings.
 
-The clearest recent evidence on *timing and gender* comes from a 2025 global study out of the
-University of Jyväskylä's Center of Excellence in Music, Mind, Body and Brain (published in
-*Memory* — see references for the full citation; specific author byline not yet confirmed against
-the journal record, so cite the DOI/journal directly rather than a name until verified), which asked
+The clearest recent evidence on *timing and gender* comes from a 2025 global study by Burunat,
+Mavrolampados, Duman, Köhler, Saarikallio, Luck, & Toiviainen out of the University of Jyväskylä's
+Center of Excellence in Music, Mind, Body and Brain (published in *Memory*), which asked
 nearly 2,000 participants across 84
 countries to identify the single piece of music most personally meaningful to them. Aggregated
 across the sample, meaningfulness follows an inverted-U shape peaking around **age 17**, but the
