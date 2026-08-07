@@ -294,25 +294,28 @@ rather than restating prior literature (§8).
 - Jakubowski, K., Eerola, T., Tillmann, B., Perrin, F., & Heine, L. (2020). A cross-sectional study
   of reminiscence bumps for music-related memories in adulthood. *Music & Science*.
   https://journals.sagepub.com/doi/10.1177/2059204320965058
-- University of Jyväskylä, Center of Excellence in Music, Mind, Body and Brain (2025). Global study
-  on memory bumps across the lifespan in personally meaningful music (~2,000 participants, 84
-  countries; gender-timing findings: men peak ~15.9, women ~19). Journal article: "Memory bumps
-  across the lifespan in personally meaningful music," *Memory*.
+- Burunat, I., Mavrolampados, A., Duman, D., Köhler, F., Saarikallio, S. H., Luck, G., & Toiviainen, P.
+  (2025). Memory bumps across the lifespan in personally meaningful music. *Memory* (~2,000
+  participants, 84 countries; gender-timing findings: men peak ~15.9, women ~19).
   https://www.tandfonline.com/doi/full/10.1080/09658211.2025.2557960 ·
   https://pubmed.ncbi.nlm.nih.gov/40952922/ · university press coverage:
   https://www.jyu.fi/en/news/global-study-shows-why-the-songs-from-our-teens-leave-a-lasting-mark-on-us
-- Kalia, A. (2015). *Skynet & Ebert* — Spotify/Echo Nest listening-data analysis on age and music
-  discovery decline (age ~33 finding). Referenced via secondary coverage:
+- Kalia, A. (2015). Music was better back then: When do we stop keeping up with popular music?
+  *Skynet & Ebert*. https://skynetandebert.com/2015/04/22/music-was-better-back-then-when-do-we-stop-keeping-up-with-popular-music/
+  — Spotify/Echo Nest listening-data analysis on age and music discovery decline (mid-30s
+  stabilization finding); further corroborated by statsignificant.com's 2024 statistical re-analysis:
   https://www.statsignificant.com/p/when-do-we-stop-finding-new-music
-- Frontiers in Psychology (2024). Revisiting the musical reminiscence bump: insights from
-  neurocognitive and social brain development in adolescence.
+- Kudaravalli, R., Kathios, N., Loui, P., & Davidow, J. Y. (2024). Revisiting the musical reminiscence
+  bump: insights from neurocognitive and social brain development in adolescence. *Frontiers in
+  Psychology*, 15:1472767.
   https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1472767/full
 - Rentfrow, P. J., & Gosling, S. D. (2003). The do re mi's of everyday life: The structure and
-  personality correlates of music preferences. *Journal of Personality and Social Psychology*.
-  https://gosling.psy.utexas.edu/wp-content/uploads/2014/09/JPSP03musicdimensions.pdf — original
-  four-dimension model, later extended to the five-dimension **MUSIC** model (Mellow, Unpretentious,
-  Sophisticated, Intense, Contemporary); replication/extension: Rentfrow et al. (2012), "The Song
-  Remains the Same," https://projects.ori.org/lrg/PDFs_papers/RentfrowEtal2012MUSICReplicationMP.pdf
+  personality correlates of music preferences. *Journal of Personality and Social Psychology*, 84,
+  1236–1256. https://gosling.psy.utexas.edu/wp-content/uploads/2014/09/JPSP03musicdimensions.pdf —
+  original four-dimension model, later extended to the five-dimension **MUSIC** model (Mellow,
+  Unpretentious, Sophisticated, Intense, Contemporary); replication/extension: Rentfrow et al. (2012),
+  "The Song Remains the Same," *Music Perception*, 30(2), 161–185.
+  https://projects.ori.org/lrg/PDFs_papers/RentfrowEtal2012MUSICReplicationMP.pdf
 - Setti, F., & Kahn, J. H. (2024). Evaluating how facets of openness to experience predict music
   preference. *Musicae Scientiae*. https://journals.sagepub.com/doi/10.1177/10298649231174751
 - Genre-/artist-level age demographics (§6, industry/survey sourcing — see the caveat at the end of
