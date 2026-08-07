@@ -84,11 +84,12 @@ cultural relevance — suggesting the mechanism is at least partly about *availa
 lifestyle bandwidth*, not age itself.
 
 *Sourcing note:* Kalia's original analysis was published on the *Skynet & Ebert* blog and is widely
-cited (Hypebot, WNYC, NME, and others all covered it at the time), but the original post could not be
-directly re-verified while drafting this section — it is currently known only through secondary
-coverage, most substantively statsignificant.com's 2024 statistical re-analysis of the same claim.
-Treat the age-33 figure as well-corroborated by repetition across outlets but not yet confirmed
-against Kalia's primary data or methodology section.
+cited (Hypebot, WNYC, NME, and others all covered it at the time). The primary post has been
+directly verified (skynetandebert.com/2015/04/22/) and confirms stabilization "by their mid-30s,"
+a steeper decline for men than women, and the "musical tax" effect of parenthood on mainstream
+listening; the paper's "~33" figure is a reasonable point estimate within the primary source's
+"mid-30s"/"early 30s" range, corroborated further by statsignificant.com's 2024 statistical
+re-analysis.
 
 This distinction matters: age may be a proxy for several independent forces (identity stabilizing,
 free time shrinking, social contexts that introduce new music becoming less frequent) rather than a
