@@ -178,7 +178,8 @@ past, so their present-day audience disproportionately reflects listeners whose 
 overlapped with that peak, still returning to it.
 
 The complication is progressive rock and, more sharply, pop-punk: both show real *bidirectional* age
-traffic — prog picking up a measurably younger audience between 2016 and 2020, pop-punk sustaining
+traffic — prog showing a measurably younger audience in a 2020 survey than a 2016 radio-listener
+sample suggested, pop-punk sustaining
 both a live 15–25 core and an openly acknowledged nostalgia audience for the cohort that is now
 30–40+. This is exactly what §7's reconciliation should predict once life-stage and streaming-era
 access are taken seriously as separate from raw age (§9's streaming-era-confound limitation): a
