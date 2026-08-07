@@ -256,9 +256,9 @@ partnership access), and sources still to review.
   decline regardless of age) is the strongest available evidence that age is a proxy rather than a
   direct cause, but it is one dataset's finding, not a replicated causal claim.
 - **Single-source claims.** Two load-bearing claims in this draft rest on one paper each: the
-  personality/age dissociation in §4 (Setti & Kahn, 2024) and the age-33 discovery-decline figure in
-  §3 (Kalia, 2015, itself only secondary-sourced here — see the sourcing note in §3). Neither should
-  be treated as consensus findings until corroborated by additional sources.
+  personality/age dissociation in §4 (Setti & Kahn, 2024) and the discovery-decline figure in
+  §3 (Kalia, 2015). Neither should be treated as consensus findings until corroborated by
+  additional sources, even though Kalia's primary source has now been directly verified (§3).
 - **Industry/survey data, not peer review (§6).** The genre- and artist-level age table in §6 draws
   on Nielsen, Luminate, and web-aggregator sources (gitnux.org, headphonesaddict.com) plus a single
   fan-run survey (Defector Music) for the progressive-rock figures specifically. None report full
