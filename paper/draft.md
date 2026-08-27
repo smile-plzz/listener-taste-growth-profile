@@ -38,8 +38,10 @@ actively reshaping the discovery curve for cohorts now in their formation window
 anchors (§14.2), three documented cases in which a decades-old recording acquired a mass young
 audience through a single exogenous event (§14.3), a dated falsifiable forecast about hip-hop's
 audience demographics (§14.4), and a null model deriving expected audience age from an artist's peak
-year alone (§14.5) test the framework against concrete cases rather than aggregates. The null model's
-*failures* (§14.6) are the productive part: pre-war classical and 1950s jazz have no living
+year alone (§14.5) test the framework against concrete cases rather than aggregates. A predicted attribute profile by age group (§14.7),
+an 85-artist directory with genre, MUSIC dimension and derived cohort (Appendix B), and twelve
+song-level dissections (Appendix C) carry the argument down to the level of individual sounds. The
+null model's *failures* (§14.6) are the productive part: pre-war classical and 1950s jazz have no living
 formation cohort at all, which makes their audiences direct evidence that preference content is
 acquired in adulthood rather than carried forward from a formation window. Predicted
 attribute profiles by age group (§14.7) restate the whole arc in terms of tempo, dynamics, timbre,
@@ -1509,6 +1511,9 @@ without re-reading. Tiers per §2.3.
 | 22 | Core audience age is derivable from peak year alone | §14.5 | — | Derivation from claim #1 | **Null model**, not a measurement; H9 tests it |
 | 23 | Pre-war classical and 1950s–60s jazz audiences cannot be bump-anchored | §14.6(a) | A (by construction) | No living formation cohort | Strongest evidence for adult acquisition / content drift |
 | 24 | Cascade catalogs track household penetration, not critical canonicity | §14.6(b) | — | Prediction | Untested; distinguishes cascade from quality |
+| 25 | Attribute preference shifts with age across dynamics/pitch/structure/tempo/timbre | §14.7 | — | Attribute taxonomy from Bonneville-Roussy & Eerola 2018; values **inferred** | **Predicted profile, not a finding** — direct age×attribute evidence is thin |
+| 26 | Attribute drift tracks privatization of listening context better than age | §14.7 | — | Prediction | Untested; follows from claim #8 |
+| 27 | Records beating their derived cohort share low entry cost, timbral era-neutrality, fragment-robustness | App. C | — | Close reading of 12 tracks | Interpretive; measurable with audio features (H9) |
 | 25 | Attribute profile shifts because listening's *function* moves from social display to private regulation | §14.7 | — | Inferred from §6 + §7.2 | **Predicted profile, not a finding**; testable via audio features |
 | 26 | Sync-rejuvenation candidates are predictable from timbral era-neutrality | App. C | — | Close reading of 12 tracks | Untested; H9b |
 

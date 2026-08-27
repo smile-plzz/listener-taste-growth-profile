@@ -36,7 +36,11 @@ deriving expected audience age from an artist's commercial peak year alone (§14
 11 era bands) and, more usefully, the four classes of artist it fails on (§14.6) — including the
 observation that pre-war classical and 1950s jazz have no living formation cohort at all, making
 their audiences direct evidence that preference content is acquired in adulthood rather than carried
-forward. v4.3 adds predicted sound-attribute profiles per age group (§14.7 — tempo, dynamics, timbre,
+forward. v4.3 goes down a level from genre to sound: predicted sound-attribute profiles by age group
+(§14.7, on Bonneville-Roussy & Eerola's dynamics/pitch/structure/tempo/timbre taxonomy), an
+~85-artist directory with genre, MUSIC dimension and derived cohort (Appendix B), and twelve
+song-level dissections (Appendix C) — which converge on three properties shared by every record that
+beats its derived audience age: low entry cost, timbral era-neutrality, and fragment-robustness. v4.3 adds predicted sound-attribute profiles per age group (§14.7 — tempo, dynamics, timbre,
 harmony, structure, lyric mode and function, using Bonneville-Roussy & Eerola's attribute taxonomy),
 an **artist directory** of ~85 acts with genre, MUSIC dimension and derived cohort age (Appendix B),
 and **twelve song-level dissections** (Appendix C), which converge on three audio-measurable
