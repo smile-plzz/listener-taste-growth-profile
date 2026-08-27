@@ -72,7 +72,7 @@ v3.0 listed the empirical extension as blocked: personal Spotify exports are sin
 (Schedl et al., CHIIR 2022) resolves this — ~2B listening events, 120k+ users, Feb 2005–Mar 2020,
 with **age, gender, country** and genre/style annotations, public for research. Long enough to
 observe the same listener aging, which is what this whole literature lacks. §18 is now written as a
-pre-registration-grade protocol: eight hypotheses (H1–H8) each with a stated falsifier, operational
+pre-registration-grade protocol: nine hypotheses (H1–H9) each with a stated falsifier, operational
 definitions for every construct, analysis strategy, six named confounds, and an ethics/scope section.
 
 H1 (within-person content drift) is the highest-value single result available: the field has enormous
@@ -116,6 +116,42 @@ chosen to isolate a mechanism rather than for popularity:
   the music and access cost constant across cohorts.
 - Appendix A extended to 21 rows.
 
+## v4.2 — derived audience-age model (2026-08-27)
+
+Second pass on artist references, this time making the audience-age angle do analytic work instead
+of listing more names.
+
+- **§14.5 null model.** If bump-anchoring is real, core audience age is derivable from peak year
+  alone: (current year − peak year) + 15…24. Tabulated across 11 era bands and ~70 artists, from
+  Miles Davis/Coltrane (derived 76–91 in 2026) down to Chappell Roan/Sleep Token (16–29). Read down
+  the column and §14.1's genre skews fall out **mechanically, with no genre-specific explanation** —
+  which is §14.4's forecast restated. Every range is explicitly a derivation, not a measurement; the
+  table's value is as a null model.
+- **§14.6 the deviations, which are the useful part.** Four classes:
+  - **(a) No living formation cohort.** Best thing in this pass. Derived audience for *Kind of Blue*
+    is 76–91; for pre-war classical there is *no* living cohort — yet both have real audiences, and
+    classical retains 29% under 35. Those listeners **cannot** be bump-anchored; they acquired the
+    taste in adulthood. This is the control condition the age-trend literature never designed, and
+    it's the strongest evidence that §7.2's content drift is genuine acquisition rather than cohorts
+    carrying formation-window taste forward. Worth foregrounding in any future revision.
+  - **(b) Cascade at scale** — Grateful Dead (derived 69–78) vs. Dead & Company's mixed-age crowds;
+    Beatles, Floyd, Queen, Fleetwood Mac, ABBA. Distinguishing prediction added: cascade should track
+    **parental household penetration, not critical canonicity** — Velvet Underground and Beefheart
+    are canonical and don't cascade; ABBA isn't and does.
+  - **(c) Continuous producers** — Metallica, Maiden, Taylor Swift, Radiohead, Beyoncé: audiences are
+    *stacked* cohorts, so a single derived range is the wrong shape. Swift is the extreme case, and
+    her re-recording project is the purest commercial exploitation of $w_i(t)$ yet attempted —
+    selling formation-window songs back to the cohort that formed on them. That it worked is itself
+    a data point on the weighting function's durability.
+  - **(d) Sync/virality** — the §14.3 cases; Kate Bush derived 56–65 against a teenage 2022 audience.
+- **H9 added**: fit the null model on LFM-2b, rank artists by residual, and identify cascade and
+  acquisition catalogs empirically instead of by anecdote.
+- Appendix A now 24 rows.
+
+**Caveat to carry forward:** peak years in §14.5 are approximate and contestable, and the whole table
+is a model output. It should never be cited as audience data. If §18 ever runs, the fitted version
+replaces it.
+
 ## Still open after v4.0
 
 - **Author byline for the UMAP 2025 "Soundtracks of Our Lives" paper** — arXiv/ACM pages were
@@ -133,7 +169,7 @@ chosen to isolate a mechanism rather than for popularity:
 - **Whether to actually run §18.** The protocol is specified; nothing has been executed. Decision
   point for the project.
 
-## Hypotheses (now formalized as H1–H8 in the paper's §18)
+## Hypotheses (now formalized as H1–H9 in the paper's §18)
 
 1. **H1** Within-person content drift matches the cross-sectional gradient (and is smaller).
 2. **H2** Behavioral replication of the bump, availability-normalized, multi-modal, with H2c
@@ -149,6 +185,9 @@ chosen to isolate a mechanism rather than for popularity:
    track declines with listener age even with exposure, access cost and the music held constant.
    Falsified if adoption is flat in age — which would localize the whole discovery decline in
    *exposure opportunity* rather than in responsiveness.
+9. **H9** *(new)* The §14.5 release-date null model predicts artist-level audience age; the
+   **residual** is the quantity of interest and should sort artists into the four §14.6 deviation
+   classes. Tests §14.6(b)'s prediction that cascade tracks household penetration, not canonicity.
 
 ---
 

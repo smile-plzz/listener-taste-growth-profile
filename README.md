@@ -31,5 +31,10 @@ age-labeled, ~2-billion-event Last.fm corpus that removes the data-access blocke
 listed as open. v4.1 adds artist-level anchors (§14.2), three documented cases of decades-old
 recordings acquiring mass young audiences via a single exogenous event (§14.3 — Kate Bush, Metallica,
 Fleetwood Mac), a dated falsifiable forecast about hip-hop's audience demographics (§14.4), and the
-Rodrigo/Paramore interpolation as a documented cascading-bump case (§10). Sections §14's genre demographics remain explicitly Tier D (industry/survey
+Rodrigo/Paramore interpolation as a documented cascading-bump case (§10). v4.2 adds a **null model**
+deriving expected audience age from an artist's commercial peak year alone (§14.5, ~70 artists across
+11 era bands) and, more usefully, the four classes of artist it fails on (§14.6) — including the
+observation that pre-war classical and 1950s jazz have no living formation cohort at all, making
+their audiences direct evidence that preference content is acquired in adulthood rather than carried
+forward. Sections §14's genre demographics remain explicitly Tier D (industry/survey
 aggregation, not peer review). The empirical study is specified but **not run**.

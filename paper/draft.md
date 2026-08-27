@@ -1,6 +1,6 @@
 # Taste as It Ages: Age, Openness, and the Evolution of Music Preference Across the Listening Life
 
-*v4.1 — broadened full-length synthesis, with artist-level anchors. Adds a scope-and-method section, a formal three-axis
+*v4.2 — broadened full-length synthesis, with artist-level anchors and a derived audience-age model. Adds a scope-and-method section, a formal three-axis
 framework, the large-sample age-trend literature that partially contradicts v3.0's "age-stable
 content" claim, developmental (pre-bump) and late-life sections, social-transmission and
 cultural-stratification accounts, cross-cultural evidence, a technology-as-moderator section, and a
@@ -36,8 +36,12 @@ cross-cultural record (§12), an illustrative individual trajectory (§13) and a
 genre-demographics survey (§14), and streaming/algorithmic curation as a moderator that may be
 actively reshaping the discovery curve for cohorts now in their formation window (§16). Artist-level
 anchors (§14.2), three documented cases in which a decades-old recording acquired a mass young
-audience through a single exogenous event (§14.3), and a dated falsifiable forecast about hip-hop's
-audience demographics (§14.4) test the framework against concrete cases rather than aggregates. It
+audience through a single exogenous event (§14.3), a dated falsifiable forecast about hip-hop's
+audience demographics (§14.4), and a null model deriving expected audience age from an artist's peak
+year alone (§14.5) test the framework against concrete cases rather than aggregates. The null model's
+*failures* (§14.6) are the productive part: pre-war classical and 1950s jazz have no living
+formation cohort at all, which makes their audiences direct evidence that preference content is
+acquired in adulthood rather than carried forward from a formation window. It
 closes with a protocol-grade empirical extension (§18) specified against LFM-2b — a public, age-labeled,
 two-billion-event Last.fm listening corpus that makes the previously "blocked on data access"
 test executable — and a tiered accounting of evidential strength (§19).
@@ -52,7 +56,7 @@ test executable — and a tiered accounting of evidential strength (§19).
 | v1.1 | §5 illustrative individual trajectory. |
 | v2.0 | Abstract/introduction brought into line with the full section list; references de-caveated. |
 | v3.0 | §6 population-level genre/artist age demographics, with an explicit non-peer-review caveat. |
-| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, and a dated falsifiable forecast (§14.2–§14.4); the documented cross-generational interpolation case (§10).** |
+| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, a dated falsifiable forecast, and a release-date null model for audience age with its four deviation classes (§14.2–§14.6); the documented cross-generational interpolation case (§10).** |
 
 ---
 
@@ -880,6 +884,100 @@ of cohort) makes the opposite prediction on the same data. If the over-55 hip-ho
 5% in 2040, the bump-anchoring explanation of genre-age demographics is in serious trouble.
 
 
+
+### 14.5 Deriving expected audience age from release date
+
+The anchor table in §14.2 assigns artists to mechanisms qualitatively. The framework supports
+something stricter: if bump-anchoring (§4) is real, then an artist's **core audience age is
+predictable from their commercial peak year alone**, with no audience data required.
+
+For an artist whose commercial peak fell in year $P$, the bump-anchored core cohort — listeners whose
+formation window (ages ~15–24) overlapped that peak — has, in year $Y$, an age of approximately:
+
+$$\text{core cohort age} \;\approx\; (Y - P) + 15 \;\text{ to }\; (Y - P) + 24$$
+
+The table below applies this at $Y = 2026$. **Every age range in it is a derivation, not a
+measurement.** Peak years are approximate and contestable; the ranges describe where the
+*bump-anchored* component of an audience should sit, not the whole audience; and they deliberately
+ignore every other channel by which listeners arrive. That is the point — the table's value is as a
+**null model**, and the interesting artists are the ones it gets wrong (§14.6).
+
+| Approx. peak | Artists | Derived core cohort age in 2026 |
+|---|---|---|
+| ~1959–1965 | Miles Davis (*Kind of Blue*), John Coltrane, early Beatles | 76–91 |
+| ~1967–1972 | The Beatles (late), Led Zeppelin, King Crimson, Grateful Dead, Miles Davis (*Bitches Brew*) | 69–83 |
+| ~1973–1978 | Pink Floyd, Queen, ABBA, Fleetwood Mac, Bob Marley, Yes, Genesis, Dolly Parton, Willie Nelson | 63–77 |
+| ~1979–1985 | Michael Jackson, Madonna, Kate Bush, Iron Maiden, Rush, The Cure, Prince | 56–71 |
+| ~1986–1991 | Metallica, Run-DMC, Public Enemy, Guns N' Roses, N.W.A, Nirvana, Depeche Mode | 50–64 |
+| ~1992–1997 | Wu-Tang Clan, A Tribe Called Quest, Blur, Oasis, Pulp, Radiohead, Nas, Björk, Dream Theater | 44–58 |
+| ~1998–2003 | Blink-182, Eminem, Linkin Park, Tool, Avril Lavigne, Slipknot, The Strokes, Destiny's Child | 38–52 |
+| ~2004–2009 | My Chemical Romance, Paramore, Fall Out Boy, Arctic Monkeys, Kanye West, Porcupine Tree, Amy Winehouse | 32–46 |
+| ~2010–2015 | Adele, Kendrick Lamar, Drake, Lorde, Bring Me the Horizon, Daft Punk (*RAM*), The Weeknd | 26–40 |
+| ~2016–2020 | BTS, Billie Eilish, Ghost, Tyler the Creator, Post Malone, Bad Bunny (early) | 21–34 |
+| ~2021–2025 | Olivia Rodrigo, Chappell Roan, Sleep Token, Polyphia, Ice Spice, Sabrina Carpenter, Bad Bunny (peak) | 16–29 |
+
+Read down the right-hand column and the §14.1 genre table's shape falls out mechanically. Country and
+mainstream rock skew older because their mass-market peaks sit in the upper rows; hip-hop and pop
+skew younger because theirs sit in the lower ones. **No genre-specific explanation is required** —
+which is the §14.4 forecast restated: the skews are positions on a conveyor, not properties of the
+music.
+
+### 14.6 Where observation departs from the derivation — and why that is the useful part
+
+Four classes of artist violate the null model, and each violation identifies a specific mechanism
+operating *in addition to* bump-anchoring. These deviations are more informative than the fits.
+
+**(a) Genres whose formation cohort is largely gone — evidence for adult acquisition.** The
+derivation puts the bump-anchored audience for *Kind of Blue* (1959) at **76–91** in 2026, and for
+the Baroque and Classical repertoire at no living cohort whatsoever. Yet jazz has a substantial
+living audience and classical retains 29% of its audience under 35 (§14.1). **This cannot be
+bump-anchoring**, and it is not a marginal correction — for pre-war classical repertoire it is the
+*entire* audience. Every one of those listeners acquired the taste in adulthood.
+
+This is the strongest available evidence for the content-drift axis (§7.2) as a real acquisition
+process rather than a cohort artifact, and it is evidence of a kind the survey literature cannot
+supply: Bonneville-Roussy et al.'s finding that liking for Jazzy and Sophisticated material *rises*
+with age would be uninterpretable as drift if it could be explained by cohorts carrying
+formation-window taste forward — and for repertoire older than any living listener, it demonstrably
+cannot be. Classical and jazz are the control condition the age-trend literature never designed.
+
+**(b) Multi-generational transmission — the cascade at scale.** The Grateful Dead's derived cohort is
+**69–78**, yet Dead & Company have played to visibly mixed-age audiences with a substantial cohort in
+their 20s and 30s. The Beatles, Pink Floyd, Queen, Fleetwood Mac and ABBA are the same story in
+milder form: catalogs that recruit continuously across generations. Per §10, this is the cascading
+bump operating through household exposure — these are the records that were ambient in the childhood
+homes of the listeners now adopting them, encoded during the open-eared period (§9) and available for
+re-adoption later without identity cost. The prediction that distinguishes cascade from mere quality:
+**cascade catalogs should be exactly the ones with high parental household penetration**, not the
+ones critics rate highest, and those two sets come apart (the Velvet Underground and Captain
+Beefheart are canonical and do not cascade; ABBA is not canonical and does).
+
+**(c) Continuous producers — audiences as stacked cohorts, not single ones.** Metallica, Iron Maiden,
+Taylor Swift, Radiohead and Beyoncé each have 20–40 years of continuous relevant output, so their
+audiences are **sums over multiple formation windows** rather than one. The null model's single range
+is simply the wrong shape for them. Taylor Swift is the extreme case: an artist who has occupied the
+formation window of listeners now ~30 (2008–2010 country era) *and* those now ~20 (*1989*/*Reputation*)
+*and* those now in it (*Midnights* onward), while the earliest cohort aged alongside her. Her
+re-recording project is arguably the purest commercial exploitation of $w_i(t)$ yet attempted:
+it monetizes the emotional premium on formation-window material by selling the *same songs* back to
+the cohort that formed on them. That it worked is a data point about the durability of the weighting
+function.
+
+**(d) Sync and virality rejuvenation.** The §14.3 cases. Kate Bush's derived cohort is **56–65**; the
+2022 audience was substantially teenage. Metallica's is **50–64**; the *Stranger Things* audience was
+not. These are the sharpest violations in the table and the ones with a dated, identifiable cause.
+
+**What the four deviations add up to.** Bump-anchoring is the default and it explains the aggregate
+genre skews well. But at least four other channels move listeners onto catalogs their birth year does
+not predict — adult acquisition, household cascade, continuous production, and exogenous exposure
+shocks. Three of the four have become *more* powerful under streaming (§16.1), which is a further
+reason to expect the audience-age structure documented in §14.1 to loosen rather than hold. A useful
+formulation for §18: the null model above is a testable baseline, and **the residual from it is the
+quantity of interest** — per artist, per genre, per cohort. Fitting it on LFM-2b and examining which
+artists have the largest residuals would identify cascade and acquisition catalogs empirically rather
+than by the anecdote used here.
+
+
 ---
 
 ## 15. The far end: music in later life
@@ -1165,6 +1263,17 @@ about *exposure opportunity* (§6, §10) rather than about any change in respons
 and would be a strong result in its own right. Requires event-dated listening logs; feasible on
 LFM-2b for pre-2020 events.
 
+**H9 — The release-date null model, and its residuals.** The §14.5 derivation (core audience age
+≈ (current year − peak year) + 15…24) predicts a substantial share of variance in observed
+artist-level audience age. **Falsified if** it does not — which would put bump-anchoring's role in
+population-level genre demographics in doubt. The more valuable output is the **residual**: artists
+whose audience is systematically younger than derived should sort into the four §14.6 classes —
+adult acquisition (jazz, classical), household cascade, continuous production, and exposure shocks.
+Fitting the null model on LFM-2b and ranking artists by residual would identify cascade and
+acquisition catalogs *empirically* rather than by the anecdote §14.6 relies on, and supplies a direct
+test of §14.6(b)'s distinguishing prediction: residuals should track parental household penetration,
+not critical canonicity.
+
 ### 18.4 Analysis strategy
 
 - **Within-person longitudinal models** (mixed-effects with random slopes per listener) as the
@@ -1343,6 +1452,9 @@ without re-reading. Tiers per §2.3.
 | 19 | Decades-old catalog can acquire a mass young audience via a single sync/virality event | §14.3 | D | Kate Bush 2022; Metallica 2022; Fleetwood Mac 2020 (chart reporting) | Well documented; illustrative, not causal-inferential |
 | 20 | Cross-generational style transfer can bypass the original recordings | §10 | D | Rodrigo/Paramore interpolation credit, 2021 | Single documented case |
 | 21 | Hip-hop's over-55 share must rise as its first cohorts age | §14.4 | — | Prediction from claim #1 | **Untested forecast**, stated to be falsifiable |
+| 22 | Core audience age is derivable from peak year alone | §14.5 | — | Derivation from claim #1 | **Null model**, not a measurement; H9 tests it |
+| 23 | Pre-war classical and 1950s–60s jazz audiences cannot be bump-anchored | §14.6(a) | A (by construction) | No living formation cohort | Strongest evidence for adult acquisition / content drift |
+| 24 | Cascade catalogs track household penetration, not critical canonicity | §14.6(b) | — | Prediction | Untested; distinguishes cascade from quality |
 
 ---
 
