@@ -1,6 +1,6 @@
 # Taste as It Ages: Age, Openness, and the Evolution of Music Preference Across the Listening Life
 
-*v4.0 — broadened full-length synthesis. Adds a scope-and-method section, a formal three-axis
+*v4.1 — broadened full-length synthesis, with artist-level anchors. Adds a scope-and-method section, a formal three-axis
 framework, the large-sample age-trend literature that partially contradicts v3.0's "age-stable
 content" claim, developmental (pre-bump) and late-life sections, social-transmission and
 cultural-stratification accounts, cross-cultural evidence, a technology-as-moderator section, and a
@@ -34,8 +34,11 @@ social and cross-generational transmission (§10, the cascading bump), cultural-
 accounts that treat breadth as a status resource rather than a psychological trait (§11), the
 cross-cultural record (§12), an illustrative individual trajectory (§13) and a population-level
 genre-demographics survey (§14), and streaming/algorithmic curation as a moderator that may be
-actively reshaping the discovery curve for cohorts now in their formation window (§16). It closes
-with a protocol-grade empirical extension (§18) specified against LFM-2b — a public, age-labeled,
+actively reshaping the discovery curve for cohorts now in their formation window (§16). Artist-level
+anchors (§14.2), three documented cases in which a decades-old recording acquired a mass young
+audience through a single exogenous event (§14.3), and a dated falsifiable forecast about hip-hop's
+audience demographics (§14.4) test the framework against concrete cases rather than aggregates. It
+closes with a protocol-grade empirical extension (§18) specified against LFM-2b — a public, age-labeled,
 two-billion-event Last.fm listening corpus that makes the previously "blocked on data access"
 test executable — and a tiered accounting of evidential strength (§19).
 
@@ -49,7 +52,7 @@ test executable — and a tiered accounting of evidential strength (§19).
 | v1.1 | §5 illustrative individual trajectory. |
 | v2.0 | Abstract/introduction brought into line with the full section list; references de-caveated. |
 | v3.0 | §6 population-level genre/artist age demographics, with an explicit non-peer-review caveat. |
-| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19).** |
+| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, and a dated falsifiable forecast (§14.2–§14.4); the documented cross-generational interpolation case (§10).** |
 
 ---
 
@@ -604,6 +607,19 @@ cost of adopting a peer-illegible style. This makes the cascading bump the clear
 evidence that **exposure environment, not just developmental stage, shapes $w_i$** — the developmental
 stage of the *listener* cannot explain why the second peak lands specifically on the parents' window.
 
+**A case where the cascade is documented in the credits.** Olivia Rodrigo's "good 4 u" (2021) drew
+immediate public comparison to Paramore's "Misery Business" (2007); three months after release,
+Hayley Williams and Josh Farro were retroactively added as co-writers, taking a combined 50% royalty
+share, the credit treated as an interpolation. The case is useful here for a reason unrelated to
+authorship disputes: it is a rare instance where cross-generational stylistic transmission is
+**explicitly registered** rather than inferred. A 2007 pop-punk record — formation-window music for
+listeners now in their early-to-mid 30s — supplied the stylistic template for a 2021 record aimed at
+listeners then in *their* formation window, and the resemblance was legible enough to the younger
+audience (largely via TikTok mashups) to force a legal acknowledgment. That is the cascading
+mechanism operating one full generation-step, with a paper trail. It also shows the cascade need not
+travel through the original recordings at all: the parental-era style can arrive re-encoded in
+contemporary production, which no measure based on release-year distributions would detect.
+
 **Social sources through adulthood.** Bonneville-Roussy & Rust (2018), the second paper in the
 *Age trends* series, examines sources of social influence as determinants of adult preference
 explicitly, treating changing reference groups — family, peers, partner, colleagues, children — as
@@ -703,11 +719,11 @@ make the framework's predictions concrete enough to be obviously wrong if they a
 
 | Age range | Typical genre pull | Example artists | What §4–§12 predicts is happening |
 |---|---|---|---|
-| Childhood / pre-teen (~8–12) | High-energy, hook-driven, often peer- or sibling-introduced pop-punk | Blink-182 | **Post-open-eared, pre-bump.** Per §9, open-earedness has already begun narrowing around 10–11; per §10, what is available to narrow *toward* is largely inherited (family, older siblings, radio, the ambient home catalog that later produces the cascading bump). Pop-punk's simple, high-arousal, rebellious-but-safe register is a common gateway: an early, low-cost independence signal that precedes real peer-driven identity work. |
-| Teenage (~13–18) | Britpop / melodic guitar rock with strong lyrical and cultural identity | Blur, Oasis | **The formation window (§4).** Genre choice here is doing identity work, not only aesthetic work: picking a side (Blur vs. Oasis was a literal tabloid rivalry) is precisely the peer-anchored, socially-legible taste-marking that §4.3(b) describes, and §6's finding that adolescent listening happens in many *social* contexts is what makes that legibility possible. Whatever is adopted here acquires a permanent premium in $w_i(t)$ — regardless of what happens to $C_i(a)$ later. |
-| Twenties | Continued high discovery, broadening around the formation core | — | **Peak sampling, beginning to gate.** $D$ is at or just past its maximum and starting to decline (§5.1); $B$ shows the young-adult rebound §9 describes; $E$ is beginning its long fall from the adolescent peak (§6). |
-| Adulthood (~late 20s onward) | Progressive and technical rock/metal — harmonically and structurally complex | Dream Theater, Porcupine Tree, Tool | **Content drift under a closing gate.** This register sits in the MUSIC model's **Sophisticated** and **Intense** dimensions, which load most heavily on openness (§7.1). Read through the revised framework, this is *not* a replacement of teenage taste: it is $C_i(a)$ drifting toward complexity and away from immediacy (§7.2 — noting that the population trend is *away* from Intense, so a listener holding Intense while gaining Sophisticated is drifting against the aggregate on one dimension, which is exactly what high openness predicts at the between-person level, §7.3(iii)) while $D$ has fallen far enough that the drift proceeds through deepening rather than through breadth. |
-| Middle age (~40+) | Increasingly nostalgia-weighted active listening; private contexts | — | Per §5.2, active listening reweights toward music with a sonic age of 10–20 years; per §6, listening has largely privatized. The Britpop catalog does not return because taste "regressed"; it returns because $w_i$ never stopped being peaked there and $D$ is no longer supplying competition. |
+| Childhood / pre-teen (~8–12) | High-energy, hook-driven, often peer- or sibling-introduced pop-punk | Blink-182; Green Day, Sum 41, Avril Lavigne | **Post-open-eared, pre-bump.** Per §9, open-earedness has already begun narrowing around 10–11; per §10, what is available to narrow *toward* is largely inherited (family, older siblings, radio, the ambient home catalog that later produces the cascading bump). Pop-punk's simple, high-arousal, rebellious-but-safe register is a common gateway: an early, low-cost independence signal that precedes real peer-driven identity work. |
+| Teenage (~13–18) | Britpop / melodic guitar rock with strong lyrical and cultural identity | Blur, Oasis; Pulp, Suede, The Verve | **The formation window (§4).** Genre choice here is doing identity work, not only aesthetic work: picking a side (Blur vs. Oasis was a literal tabloid rivalry) is precisely the peer-anchored, socially-legible taste-marking that §4.3(b) describes, and §6's finding that adolescent listening happens in many *social* contexts is what makes that legibility possible. Whatever is adopted here acquires a permanent premium in $w_i(t)$ — regardless of what happens to $C_i(a)$ later. |
+| Twenties | Continued high discovery, broadening around the formation core | Radiohead, Muse, Arctic Monkeys as adjacent expansions of the formation core | **Peak sampling, beginning to gate.** $D$ is at or just past its maximum and starting to decline (§5.1); $B$ shows the young-adult rebound §9 describes; $E$ is beginning its long fall from the adolescent peak (§6). |
+| Adulthood (~late 20s onward) | Progressive and technical rock/metal — harmonically and structurally complex | Dream Theater, Porcupine Tree, Tool; King Crimson, Opeth, Steven Wilson, Haken | **Content drift under a closing gate.** This register sits in the MUSIC model's **Sophisticated** and **Intense** dimensions, which load most heavily on openness (§7.1). Read through the revised framework, this is *not* a replacement of teenage taste: it is $C_i(a)$ drifting toward complexity and away from immediacy (§7.2 — noting that the population trend is *away* from Intense, so a listener holding Intense while gaining Sophisticated is drifting against the aggregate on one dimension, which is exactly what high openness predicts at the between-person level, §7.3(iii)) while $D$ has fallen far enough that the drift proceeds through deepening rather than through breadth. |
+| Middle age (~40+) | Increasingly nostalgia-weighted active listening; private contexts | Return traffic to Blur/Oasis; drift toward Unpretentious/Jazzy per §7.2 (Cash, Nelson, jazz catalog) | Per §5.2, active listening reweights toward music with a sonic age of 10–20 years; per §6, listening has largely privatized. The Britpop catalog does not return because taste "regressed"; it returns because $w_i$ never stopped being peaked there and $D$ is no longer supplying competition. |
 
 **Two things this trajectory does not show.** It is not evidence that Britpop taste was *replaced* by
 prog — under the model, Blur and Oasis very plausibly remain the most emotionally load-bearing music
@@ -781,6 +797,88 @@ figures) rather than peer-reviewed sources, and none report sampling methodology
 assess representativeness. Several are aggregator restatements of primary industry research whose
 original methodology is not public. Treat this table as directionally informative — enough to motivate
 the reading above — and not as evidence of the same weight as §4–§7. Flagged again in §19.
+
+
+### 14.2 Artist-level anchors
+
+The genre table treats audiences as aggregates. Individual artists make the mechanisms visible more
+sharply, because an artist has a fixed release date while their audience does not — which makes the
+gap between the two directly observable. The cases below are **illustrative anchors, not data**
+(Tier D throughout: chart reporting and press coverage), chosen because each isolates one mechanism
+from §4–§16 rather than merely being popular.
+
+| Mechanism | Anchor artists | What the case shows |
+|---|---|---|
+| **Bump-anchoring** (§4) — audience aged with the release | Blur, Oasis, Pulp (Britpop, mid-90s); Nirvana, Pearl Jam; Wu-Tang Clan, A Tribe Called Quest | Present-day audiences skew toward listeners whose formation window overlapped the commercial peak. Britpop is the §13 case's own anchor; the hip-hop examples matter for §14.4. |
+| **Content drift, upward dimensions** (§7.2) | Miles Davis, John Coltrane (Sophisticated); Johnny Cash, Dolly Parton, Willie Nelson (Unpretentious) | The genres whose liking *rises* with age. Cash's late *American Recordings* run is the interesting variant: an Unpretentious-dimension artist acquiring a substantially younger audience through repertoire choice, i.e. drift running the other way. |
+| **Content drift, downward dimensions** (§7.2) | Bad Bunny, Olivia Rodrigo, Chappell Roan (Contemporary); Slipknot, Bring Me the Horizon (Intense) | The dimensions whose liking *falls* with age, and the artists currently occupying the formation window of listeners now aged 13–24. |
+| **Openness / high-Sophisticated pursuit** (§7.1) | Dream Theater, Porcupine Tree, Tool, King Crimson, Radiohead, Steven Wilson | Structurally and harmonically complex material, loading on Sophisticated and Intense — the region §13's adult phase drifts toward. |
+| **Durable committed fandom** (§14, metal row) | Iron Maiden, Metallica, Rush, Grateful Dead | Average preference declines with listener age while *committed*-fan retention does not. Mixed-age crowds at these artists' shows are the visible form of the distinction between the two measurements. |
+| **Dual-track nostalgia** (§14, pop-punk row) | My Chemical Romance, Paramore, Fall Out Boy, Avril Lavigne, Blink-182 | The same catalog serving a current teenage audience and a bump-anchored 30–40+ audience simultaneously. The *When We Were Young* festival (Las Vegas, 2022) is the clean case: an explicitly nostalgia-framed emo/pop-punk bill headlined by My Chemical Romance, Paramore, and Avril Lavigne, whose demand required expanding from one date to three. A festival that sells out three days on a lineup whose commercial peak was 15–20 years earlier is a bump-anchored cohort with adult disposable income, not a youth market. |
+| **Cascading bump** (§10) | The Beatles, Fleetwood Mac, ABBA, Queen, Pink Floyd | Perennial cross-generational catalogs whose young audiences cannot be explained by their own formation windows. Krumhansl & Zupnick's parental-era secondary peak lands squarely on this repertoire. |
+| **Prog rejuvenation** (§14, prog row) | Sleep Token, Polyphia, Ghost alongside Yes, Genesis, Rush | The younger-skewing shift the 2016-vs-2020 survey comparison gestures at is at least partly a *new-production* effect, not only back-catalog access: the Sophisticated/Intense region has contemporary occupants with young audiences. |
+
+### 14.3 Exogenous catalog shocks: when release year and audience age come apart
+
+Three well-documented recent cases isolate the §16.1 access mechanism unusually cleanly, because in
+each a decades-old recording acquired a mass young audience through a single identifiable exogenous
+event, with no change to the music itself:
+
+- **Kate Bush, "Running Up That Hill" (1985 → 2022).** After use in *Stranger Things* season 4, it
+  reached No. 1 on the UK Official Singles Chart **37 years after release** — the longest gap to No. 1
+  in chart history — with global streams up roughly **8,700%** in a week. Bush became the oldest
+  woman to top the chart, at 63.
+- **Metallica, "Master of Puppets" (1986 → 2022).** Also via *Stranger Things* season 4, it entered
+  the *Billboard* Hot 100 **for the first time ever**, at No. 40, on ~17.5 million weekly US streams
+  with on-demand streaming up ~650% week-over-week.
+- **Fleetwood Mac, "Dreams" (1977 → 2020).** A single viral TikTok video returned it to the Hot 100
+  top 40 for the first time in 30 years (re-entering at No. 21, peaking at No. 12), with its best
+  streaming week ever more than four decades after release.
+
+**Why these matter to the argument, and what they do not show.** They do *not* falsify the
+reminiscence bump — a 15-year-old adopting a 1985 record is having their formation-window experience
+on schedule; only the *sonic age* of the material is anomalous. That is precisely §16.3's H6
+scenario made visible: $w_i(t)$ stays peaked in **listener age** while decoupling from **release
+year**. Any instrument that measures the bump by release date would score these listeners as
+anomalies rather than as ordinary cases of the mechanism operating over a wider catalog.
+
+They also give the discovery-decline literature a problem it cannot currently handle. Each event
+produced an enormous spike in *new-to-listener* discovery of *old* music — which registers on
+Kalia-style popularity-indexed measures as no discovery at all, or worse, as a *decline* in
+mainstream-currency, since the music is not new to the world (§5.3). A measure that cannot see the
+Kate Bush event is not measuring curiosity.
+
+And they suggest a testable addition to §18: **sync and virality events are natural experiments.**
+They are dated, exogenous to any individual listener, and produce sharp discontinuities in a
+specific track's adoption. Comparing adoption by listener age around such an event would estimate
+how *age itself* moderates responsiveness to an equal-opportunity exposure shock — holding the music,
+the moment, and the access cost constant across cohorts. To this author's knowledge that design has
+not been run, and it would isolate the age effect better than any cross-sectional preference survey.
+
+### 14.4 A dated prediction: hip-hop's youth skew must decay
+
+The genre table's sharpest single figure — 54% of 20–24-year-olds report generally liking hip-hop
+versus 5% of over-55s — is usually read as a fact about the genre. Under the framework it cannot be
+one, and this is a place where the model makes a falsifiable forecast rather than a retrodiction.
+
+Hip-hop's commercial arrival dates to the late 1970s and early 1980s. Listeners whose formation
+window fell across that period — those who were 15–24 in, say, 1985 — are now in their mid-50s to
+mid-60s. If bump-anchoring (§4) is a real developmental mechanism and not a property of particular
+genres, then **the over-55 hip-hop figure must rise steadily over the coming decades**, mechanically,
+as each successive cohort ages carrying its formation-window catalog with it. The current 5% figure
+is a **period effect** — a snapshot of a genre younger than its oldest possible fans — not a stable
+genre characteristic.
+
+The same reasoning applies in reverse to rock's older skew (§14.1): part of what looks like "rock is
+for older listeners" is that rock's mass-market formation windows are further back, and that
+component will continue to age out.
+
+This prediction is worth stating because it is cheap to check and hard to explain away. It requires
+no new instrument — repeated cross-sectional genre-preference surveys already exist — and the
+competing account (that hip-hop is intrinsically youth-coded and will keep skewing young regardless
+of cohort) makes the opposite prediction on the same data. If the over-55 hip-hop share is still near
+5% in 2040, the bump-anchoring explanation of genre-age demographics is in serious trouble.
+
 
 ---
 
@@ -889,7 +987,8 @@ At least three of the framework's components could plausibly shift for streaming
   from many eras rather than by contemporary releases, the bump could **decouple from release year**
   entirely, remaining sharply peaked in *listener age* while flattening in *sonic age*. That would be
   invisible to any study measuring the bump by release date, and it is directly testable on data that
-  already exists (§18, H6).
+  already exists (§18, H6). §14.3's catalog-shock cases are this scenario already visible in the
+  chart record.
 
 That last possibility is, in this author's view, the most interesting live hypothesis in the field,
 and it has a limited window: it requires cohorts whose formation window fell entirely inside the
@@ -1056,6 +1155,15 @@ LFM-2b's later years, with acknowledged low power at the young end.
 narrowing through early adolescence, partial rebound in the early 20s, renewed decline after. LFM-2b's
 age coverage is thin at the youngest end, so this is a partial test at best. **Falsified if** breadth
 declines monotonically across all observable ages.
+
+**H8 — Sync and virality events as natural experiments.** Around a dated, exogenous catalog shock
+(§14.3), adoption of the affected track declines with listener age even though exposure, access cost,
+and the music itself are held constant across cohorts. This isolates age's moderation of
+responsiveness to an equal-opportunity exposure event, which no cross-sectional preference measure
+can do. **Falsified if** adoption is flat in age — which would mean the discovery decline is entirely
+about *exposure opportunity* (§6, §10) rather than about any change in responsiveness to exposure,
+and would be a strong result in its own right. Requires event-dated listening logs; feasible on
+LFM-2b for pre-2020 events.
 
 ### 18.4 Analysis strategy
 
@@ -1232,6 +1340,9 @@ without re-reading. Tiers per §2.3.
 | 16 | SST predicts late-life narrowing with sustained intensity | §15 | B | Carstensen (SST); music emotion-regulation literature | Applied, not directly tested in music |
 | 17 | Algorithmic listening reduces measured diversity | §16.2 | C | Anderson et al. 2020; cf. Sci. Rep. 2024 scale-effects | Contested; scale-dependent |
 | 18 | LFM-2b enables the §18 study | §18.1 | — | Schedl et al. 2022 | Dataset property, verified |
+| 19 | Decades-old catalog can acquire a mass young audience via a single sync/virality event | §14.3 | D | Kate Bush 2022; Metallica 2022; Fleetwood Mac 2020 (chart reporting) | Well documented; illustrative, not causal-inferential |
+| 20 | Cross-generational style transfer can bypass the original recordings | §10 | D | Rodrigo/Paramore interpolation credit, 2021 | Single documented case |
+| 21 | Hip-hop's over-55 share must rise as its first cohorts age | §14.4 | — | Prediction from claim #1 | **Untested forecast**, stated to be falsifiable |
 
 ---
 
@@ -1358,6 +1469,30 @@ without re-reading. Tiers per §2.3.
   *Scientific Reports*. https://www.nature.com/articles/s41598-024-75967-0
 - Against filter bubbles: Diversified music recommendation via weighted hypergraph embedding
   learning. arXiv:2402.16299. https://arxiv.org/html/2402.16299v1
+
+### Artist-level cases and catalog shocks (§10, §14.2–§14.4 — Tier D: chart and press reporting)
+
+- Kate Bush, "Running Up That Hill" reaching UK No. 1 in 2022, 37 years after release, after
+  *Stranger Things* season 4: Official Charts Company,
+  https://www.officialcharts.com/chart-news/kate-bushs-running-up-that-hill-is-official-charts-number-1-single-singer-becomes-3-x-official-charts-record-breaker-with-stranger-things-success__36605/
+  · NME, https://www.nme.com/news/music/kate-bush-reaches-number-one-with-running-up-that-hill-37-years-after-release-3250046
+  · streaming-increase figures via CNN, https://www.cnn.com/2022/06/23/media/stranger-things-4-netflix-kate-bush
+- Metallica, "Master of Puppets" entering the *Billboard* Hot 100 for the first time in 2022 (No. 40,
+  ~17.5M weekly US streams, ~650% streaming increase): Variety,
+  https://variety.com/2022/music/news/metallica-master-of-puppets-streaming-stranger-things-bump-1235312316/
+  · Billboard, https://www.billboard.com/music/chart-beat/metallica-master-of-puppets-stranger-things-five-burning-questions-1235113442/
+- Fleetwood Mac, "Dreams" returning to the Hot 100 top 40 in 2020 after a viral TikTok video (re-entry
+  at No. 21, peak No. 12; best streaming week ever): Billboard,
+  https://www.billboard.com/pro/fleetwood-mac-dreams-viral-tiktok-moment/ · Official Charts,
+  https://www.officialcharts.com/chart-news/fleetwood-mac-s-dreams-re-enters-the-top-40-after-viral-tiktok-video__31257/
+- Olivia Rodrigo, "good 4 u": retroactive co-writing credit to Hayley Williams and Josh Farro of
+  Paramore ("Misery Business", 2007), combined 50% royalty share, treated as an interpolation:
+  Variety, https://variety.com/2021/music/news/olivia-rodrigo-paramore-good-4-u-misery-business-1235048791/
+  · triple j, https://www.abc.net.au/triplej/news/olivia-rodrigo-good-4-u-writing-credits-paramore-misery-business/13515004
+- *When We Were Young* festival (Las Vegas, 2022), emo/pop-punk nostalgia bill headlined by My
+  Chemical Romance, Paramore and Avril Lavigne, expanded from one date to three on demand:
+  Consequence, https://consequence.net/2022/01/when-we-were-young-festival-2022-lineup/ · NME,
+  https://www.nme.com/news/music/when-we-were-young-festival-2022-check-out-the-set-times-3331173
 
 ### Genre and artist age demographics (§14 — Tier D, see the caveat closing §14)
 

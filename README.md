@@ -28,5 +28,8 @@ bump; the cultural-omnivore literature; cross-cultural evidence; later life and 
 selectivity; streaming and algorithmic curation as a moderator; and a **protocol-grade empirical
 extension** (§18) with seven falsifiable hypotheses, specified against **LFM-2b** — a public,
 age-labeled, ~2-billion-event Last.fm corpus that removes the data-access blocker earlier versions
-listed as open. Sections §14's genre demographics remain explicitly Tier D (industry/survey
+listed as open. v4.1 adds artist-level anchors (§14.2), three documented cases of decades-old
+recordings acquiring mass young audiences via a single exogenous event (§14.3 — Kate Bush, Metallica,
+Fleetwood Mac), a dated falsifiable forecast about hip-hop's audience demographics (§14.4), and the
+Rodrigo/Paramore interpolation as a documented cascading-bump case (§10). Sections §14's genre demographics remain explicitly Tier D (industry/survey
 aggregation, not peer review). The empirical study is specified but **not run**.

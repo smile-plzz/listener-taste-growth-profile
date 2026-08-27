@@ -72,7 +72,7 @@ v3.0 listed the empirical extension as blocked: personal Spotify exports are sin
 (Schedl et al., CHIIR 2022) resolves this — ~2B listening events, 120k+ users, Feb 2005–Mar 2020,
 with **age, gender, country** and genre/style annotations, public for research. Long enough to
 observe the same listener aging, which is what this whole literature lacks. §18 is now written as a
-pre-registration-grade protocol: seven hypotheses (H1–H7) each with a stated falsifier, operational
+pre-registration-grade protocol: eight hypotheses (H1–H8) each with a stated falsifier, operational
 definitions for every construct, analysis strategy, six named confounds, and an ethics/scope section.
 
 H1 (within-person content drift) is the highest-value single result available: the field has enormous
@@ -80,6 +80,41 @@ cross-sectional evidence that taste drifts with age and **almost no evidence tha
 person's taste drifts**. H6 (streaming-native bump decoupling from release year) is the most
 interesting live hypothesis and has a closing window — it needs cohorts whose formation window fell
 entirely inside streaming to be old enough to measure.
+
+## v4.1 — artist-level anchors (2026-08-27)
+
+Added concrete artist/band references throughout, all Tier D (chart and press reporting), each
+chosen to isolate a mechanism rather than for popularity:
+
+- **§14.2 anchor table** mapping mechanisms to artists — bump-anchoring (Britpop, Nirvana, Wu-Tang,
+  Tribe), the upward content dimensions (Miles Davis, Coltrane; Cash, Parton, Nelson), the downward
+  ones (Bad Bunny, Rodrigo, Chappell Roan; Slipknot, BMTH), openness/Sophisticated pursuit (Dream
+  Theater, Porcupine Tree, Tool, King Crimson, Radiohead, Steven Wilson), durable committed fandom
+  (Maiden, Metallica, Rush, Grateful Dead), dual-track nostalgia (MCR, Paramore, Fall Out Boy, Avril
+  Lavigne, Blink-182), cascade catalogs (Beatles, Fleetwood Mac, ABBA, Queen, Floyd), and prog
+  rejuvenation via *new production* (Sleep Token, Polyphia, Ghost) rather than only back-catalog
+  access.
+- **§14.3 exogenous catalog shocks**, all verified against chart sources: Kate Bush "Running Up That
+  Hill" (UK No. 1 in 2022, **37 years** after release, ~8,700% streaming increase, oldest woman to
+  top the chart at 63); Metallica "Master of Puppets" (first-ever Hot 100 entry at No. 40 in 2022,
+  ~17.5M weekly US streams, ~650% increase); Fleetwood Mac "Dreams" (2020 TikTok, top-40 re-entry
+  after 30 years, best streaming week ever). These are H6 made visible in the chart record: the bump
+  stays peaked in *listener age* while decoupling from *release year*. They also break
+  popularity-indexed discovery measures, which score the Kate Bush event as **no discovery at all**.
+- **§14.4 a dated forecast**: hip-hop's 5% over-55 liking figure must be a *period* effect, since
+  the genre's first formation-window cohorts are only now in their mid-50s–60s. If it is still ~5%
+  in 2040, bump-anchoring as an explanation of genre-age demographics is in trouble. Cheap to check
+  with existing repeated cross-sections; the competing account predicts the opposite.
+- **§10 documented cascade**: Olivia Rodrigo's "good 4 u" retroactively crediting Hayley Williams and
+  Josh Farro of Paramore ("Misery Business", 2007), 50% combined royalty share, as an interpolation.
+  Rare case where cross-generational transmission is *registered* rather than inferred — and it shows
+  the cascade can travel through re-encoded style rather than the original recordings, which no
+  release-year-distribution measure would detect.
+- **§13** trajectory table given more artists per phase.
+- **§18 H8 added**: sync/virality events as natural experiments. This came directly out of writing
+  §14.3 and is, I think, the most tractable new design in the paper — dated, exogenous, and it holds
+  the music and access cost constant across cohorts.
+- Appendix A extended to 21 rows.
 
 ## Still open after v4.0
 
@@ -98,7 +133,7 @@ entirely inside streaming to be old enough to measure.
 - **Whether to actually run §18.** The protocol is specified; nothing has been executed. Decision
   point for the project.
 
-## Hypotheses (now formalized as H1–H7 in the paper's §18)
+## Hypotheses (now formalized as H1–H8 in the paper's §18)
 
 1. **H1** Within-person content drift matches the cross-sectional gradient (and is smaller).
 2. **H2** Behavioral replication of the bump, availability-normalized, multi-modal, with H2c
@@ -110,6 +145,10 @@ entirely inside streaming to be old enough to measure.
 5. **H5** Social-context proxies beat chronological age at predicting discovery rate.
 6. **H6** Streaming-native cohorts' bump decouples from release year.
 7. **H7** Breadth is non-monotonic across the observable age range.
+8. **H8** *(new)* Sync/virality catalog shocks as natural experiments: adoption of the affected
+   track declines with listener age even with exposure, access cost and the music held constant.
+   Falsified if adoption is flat in age — which would localize the whole discovery decline in
+   *exposure opportunity* rather than in responsiveness.
 
 ---
 
