@@ -12,7 +12,7 @@ age and music preference, and how that relationship evolves across a listener's 
 
 ## Status
 
-**v4.0 — broadened full-length synthesis.** 20 sections plus a claim-to-evidence appendix, still
+**v4.3 — broadened full-length synthesis.** 20 sections plus a claim-to-evidence appendix, still
 literature-review-driven (no primary data collected). v4.0 both widened the scope and **revised a
 central claim**: v1–v3 held that preference *content* is age-stable and personality-driven, which
 does not survive the large-sample age-trend literature (Bonneville-Roussy et al., 250k+ respondents:

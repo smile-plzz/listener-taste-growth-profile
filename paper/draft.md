@@ -61,7 +61,7 @@ test executable — and a tiered accounting of evidential strength (§19).
 | v1.1 | §5 illustrative individual trajectory. |
 | v2.0 | Abstract/introduction brought into line with the full section list; references de-caveated. |
 | v3.0 | §6 population-level genre/artist age demographics, with an explicit non-peer-review caveat. |
-| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, a dated falsifiable forecast, and a release-date null model for audience age with its four deviation classes (§14.2–§14.6); predicted sound-attribute profiles per age group (§14.7); the documented cross-generational interpolation case (§10); an ~85-artist directory (Appendix B) and twelve song dissections (Appendix C).** |
+| **v4.0–v4.3** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, a dated falsifiable forecast, and a release-date null model for audience age with its four deviation classes (§14.2–§14.6); predicted sound-attribute profiles per age group (§14.7); the documented cross-generational interpolation case (§10); an ~85-artist directory (Appendix B) and twelve song dissections (Appendix C). Intermediate revisions v4.1–v4.3 added and extended the artist-level material (§14.2–§14.7, Appendices B–C) incrementally and were not logged separately at the time; they are recorded here as one band rather than reconstructed after the fact.** |
 
 ---
 
@@ -119,8 +119,16 @@ Those are different claims and the data separates them.
 
 ### 2.1 What this paper is
 
-This is a **literature review and theoretical synthesis**. It collects no primary data. Section 18
-proposes the empirical study that would test its central claims; that study has not been run.
+This is a **literature review and theoretical synthesis**. It collects no primary data, and Section
+18 proposes the empirical study that would test its central claims; that study has not been run.
+
+One distinction matters, because three sections would otherwise look inconsistent with the sentence
+above. *Collecting no primary data* is not the same as *deriving nothing new*. §14.5 builds a null
+model of audience age from release date, §14.6 classifies the four ways observation departs from it,
+and §14.7 states a predicted attribute profile by age group. These are original derivations from
+published parameters and from the framework in §3 — not syntheses of prior claims, and not
+measurements either. Each is labeled in place, and each appears in Appendix A as a derivation or a
+prediction rather than as a finding.
 
 ### 2.2 How sources were selected
 
@@ -217,7 +225,9 @@ cluster disproportionately around adolescence and early adulthood. Applied to mu
 songs from roughly their teens through mid-20s as most personally significant and most preferred,
 even decades later.
 
-Holbrook & Schindler's foundational 1989 study put the peak of preference at around **age 23.5**.
+Holbrook & Schindler's foundational 1989 study put the peak of preference in **about the 24th
+year** (often restated downstream as 23.5, a decimal implying precision the paper's own summary does
+not claim).
 Jakubowski, Eerola, Tillmann, Perrin & Heine (2020) replicate the effect using
 autobiographical-memory methodology rather than pure preference ratings, which matters: it shows the
 bump is not an artifact of asking people to rate liking, since it survives a change in the dependent
@@ -248,7 +258,7 @@ further into young adulthood. This is a proposed interpretation offered by the s
 an independently tested mechanism, and the paper should be read as establishing the *pattern* at
 Tier A-minus (large, cross-national, peer-reviewed) while the *explanation* remains Tier B.
 
-Note also that the ~17 aggregate peak sits meaningfully earlier than Holbrook & Schindler's ~23.5.
+Note also that the ~17 aggregate peak sits meaningfully earlier than Holbrook & Schindler's ~24.
 The two are not measuring the same construct — *personal meaningfulness of a single most-significant
 piece* versus *preference ratings across a catalog* — and the discrepancy is itself informative: it
 suggests the emotional-weight function $w_i$ may peak earlier than the preference function while both
@@ -328,8 +338,10 @@ The decline is not uniform across groups. Two moderators stand out:
 - **Gender**: the decline is faster for men than for women — a mirror-image of the §4.2 finding that
   women show a stronger recency effect. Two independent literatures, using different methods and
   different constructs, converge on the same directional claim: women keep taking in new music
-  longer. This convergence is one of the more robust things in this review and is treated as a
-  primary target in §18 (H3).
+  longer. The convergence is suggestive rather than established: the §4.2 side is peer-reviewed and
+  large, but the behavioral side rests on Kalia alone, and the re-analysis that corroborates Kalia's
+  age figure reports no gender breakdown at all (see the sourcing note below). It is treated as a
+  primary target in §18 (H3) precisely because it is currently under-evidenced.
 - **Parenthood**: the arrival of children predicts a sharp drop in mainstream and new-music listening
   *regardless of the listener's age at the time* — sometimes described informally as a "parent tax"
   on cultural currency.
@@ -340,18 +352,21 @@ independent of when it occurs, then the mechanism is at least partly about avail
 lifestyle bandwidth, not about chronological age or developmental stage.
 
 *Sourcing note.* Kalia's original analysis was published on the *Skynet & Ebert* blog and is widely
-cited (Hypebot, WNYC, NME). The primary post has been directly verified and confirms stabilization
-"by their mid-30s," a steeper decline for men than women, and the parenthood effect. The paper's
-"~33" figure is a point estimate within the source's "mid-30s"/"early 30s" range, corroborated by
-statsignificant.com's 2024 statistical re-analysis. It remains Tier C: real large-scale data,
-competently analyzed, but not peer-reviewed and without published methods detail sufficient for
-replication.
+cited (Hypebot, WNYC, NME). It was read directly when this section was first written, and confirms
+stabilization "by their mid-30s," a steeper decline for men than women, and the parenthood effect.
+The post now returns HTTP 403 to automated retrieval, so re-verification requires opening it in a
+browser; that caveat is recorded here rather than silently carried. The paper's "~33" figure is a
+point estimate within the source's "mid-30s"/"early 30s" range. statsignificant.com's re-analysis
+independently corroborates the age figure (Deezer ~31, Spotify ~33) and the parenthood effect, but
+**not** the gender split, on which it is silent. Kalia therefore remains the sole source for the
+gender moderator. All of this is Tier C: real large-scale data, competently analyzed, but not
+peer-reviewed and without published methods detail sufficient for replication.
 
 ### 5.2 Independent corroboration from listening logs *(Tier C, and the most direct evidence available)*
 
 The v3.0 draft rested §5's entire behavioral claim on Kalia alone, which §19 flagged as a
-single-source dependency. That dependency is now partially discharged. "Soundtracks of Our Lives: How Age Influences
-Musical Preferences" (UMAP 2025) analyzes the LFM-2b Last.fm corpus (§18.1) — a refined subset of
+single-source dependency. That dependency is now partially discharged. Golubovikj, Ferwerda, Said &
+Tkalcic's "Soundtracks of Our Lives: How Age Influences Musical Preferences" (UMAP 2025) analyzes the LFM-2b Last.fm corpus (§18.1) — a refined subset of
 **42,883 users** with plausible age data and consistent listening — and introduces **Song's Sonic
 Age (SSA)**, the release-era of a track relative to the listener's own age, as the central
 observable.
@@ -754,7 +769,7 @@ informative about *shape*, and excluded from carrying any load about *magnitude*
 
 | Genre | Age skew | Data point |
 |---|---|---|
-| Hip-hop/rap | Young, sharply so | Most-liked genre for ages 12–35; 54% of 20–24-year-olds say they generally like it, vs. 5% of over-55s. |
+| Hip-hop/rap | Young, sharply so | Most-liked genre for ages 12–35; 54% of 20–24-year-olds name it their *favorite* genre, vs. 5% of 55–64-year-olds (Statista figure, undated, via aggregator). |
 | Dance/pop | Young | Under-indexes with older age groups; over-indexes with younger ones, alongside hip-hop. |
 | Rock (mainstream) | Older-skewing | Under-indexed by younger age groups relative to hip-hop/dance/pop; still a large audience overall (~20.5% of US album sales, 2022). |
 | Country | Older, and gendered | 56% of country fans are 45+; audience skews 62% female (2022 Luminate data). |
@@ -801,7 +816,7 @@ accessible on-ramp for a listener who has not yet reached the formation window, 
 against the bump.
 
 **Caveat on this section's sourcing.** Every figure above comes from industry/survey aggregators
-(Nielsen, Luminate, gitnux.org, headphonesaddict.com, a single fan-run survey for the progressive-rock
+(Statista, Luminate, gitnux.org, headphonesaddict.com, a single fan-run survey for the progressive-rock
 figures) rather than peer-reviewed sources, and none report sampling methodology in enough detail to
 assess representativeness. Several are aggregator restatements of primary industry research whose
 original methodology is not public. Treat this table as directionally informative — enough to motivate
@@ -1488,7 +1503,7 @@ without re-reading. Tiers per §2.3.
 | 1 | Preference/memory peaks for music from adolescence–mid-20s | §4.1 | A | Holbrook & Schindler 1989; Jakubowski et al. 2020 | Replicated across methods |
 | 2 | Bump peak is gendered (M ~15.9, F ~19) | §4.2 | B | Burunat et al. 2025 | Single study, large & cross-national |
 | 3 | Bump has cascading and recency modes | §4.4 | B | Krumhansl & Zupnick 2013; Burunat et al. 2025 | Consistent, not consolidated |
-| 4 | Discovery declines through the 20s, stabilizes ~33 | §5.1 | C | Kalia 2015 (verified primary) | Not peer-reviewed |
+| 4 | Discovery declines through the 20s, stabilizes ~33 | §5.1 | C | Kalia 2015; corroborated on the age figure by statsignificant.com (Deezer ~31, Spotify ~33) | Not peer-reviewed; primary post now blocks automated retrieval (HTTP 403) |
 | 5 | Post-40 listening reweights to sonic age 10–20y | §5.2 | C | *Soundtracks of Our Lives*, UMAP 2025 | Independent corroboration of #4's shape |
 | 6 | Parenthood drops discovery independent of age | §5.1 | C | Kalia 2015 | Single analysis; load-bearing for the age-as-proxy claim |
 | 7 | Engagement and music-importance decline with age | §6 | A | Bonneville-Roussy et al. 2013 (250k+) | Best-powered result in the review |
@@ -1499,7 +1514,7 @@ without re-reading. Tiers per §2.3.
 | 12 | Personality loses predictive power vs. uses+age | §7.2 | B | Setti & Kahn 2024 | Single study; reinterpreted in v4.0 |
 | 13 | Open-earedness high in childhood, drops ~10–11, rebounds, declines | §9 | B | Hargreaves 1982; Hargreaves & Bonneville-Roussy 2018; Louven 2016 | Construct validity disputed |
 | 14 | Omnivorousness is status-stratified and period-unstable | §11 | B | Peterson 1992; de Vries & Reeves 2022; instability literature | Different discipline, different construct |
-| 15 | Genre audiences skew by age as tabulated | §14 | D | Nielsen/Luminate via aggregators; fan surveys | Directional only |
+| 15 | Genre audiences skew by age as tabulated | §14 | D | Statista and Luminate figures via aggregators; fan surveys | Directional only; only the hip-hop row has been traced to its stated upstream source |
 | 16 | SST predicts late-life narrowing with sustained intensity | §15 | B | Carstensen (SST); music emotion-regulation literature | Applied, not directly tested in music |
 | 17 | Algorithmic listening reduces measured diversity | §16.2 | C | Anderson et al. 2020; cf. Sci. Rep. 2024 scale-effects | Contested; scale-dependent |
 | 18 | LFM-2b enables the §18 study | §18.1 | — | Schedl et al. 2022 | Dataset property, verified |
@@ -1507,7 +1522,7 @@ without re-reading. Tiers per §2.3.
 | 20 | Cross-generational style transfer can bypass the original recordings | §10 | D | Rodrigo/Paramore interpolation credit, 2021 | Single documented case |
 | 21 | Hip-hop's over-55 share must rise as its first cohorts age | §14.4 | — | Prediction from claim #1 | **Untested forecast**, stated to be falsifiable |
 | 22 | Core audience age is derivable from peak year alone | §14.5 | — | Derivation from claim #1 | **Null model**, not a measurement; H9 tests it |
-| 23 | Pre-war classical and 1950s–60s jazz audiences cannot be bump-anchored | §14.6(a) | A (by construction) | No living formation cohort | Strongest evidence for adult acquisition / content drift |
+| 23 | Pre-war classical and 1950s–60s jazz audiences cannot be bump-anchored | §14.6(a) | Derivation (not an empirical tier) | No living formation cohort | Strongest evidence for adult acquisition / content drift |
 | 24 | Cascade catalogs track household penetration, not critical canonicity | §14.6(b) | — | Prediction | Untested; distinguishes cascade from quality |
 | 25 | Attribute profile shifts because listening's *function* moves from social display to private regulation | §14.7 | — | Inferred from §6 + §7.2 | **Predicted profile, not a finding**; testable via audio features |
 | 26 | Sync-rejuvenation candidates are predictable from timbral era-neutrality | App. C | — | Close reading of 12 tracks | Untested; H9b |
@@ -1748,8 +1763,10 @@ forecastable quantity rather than a retrospective anecdote.
   https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2024.1472767/full
 - Krumhansl, C. L., & Zupnick, J. A. (2013). Cascading reminiscence bumps in popular music.
   *Psychological Science*, 24(10), 2057–2068. — cross-generational (parental-era) secondary peak.
-- EEG evidence using bump-era songs as autobiographical cues in aging:
-  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10803499/
+- Martínez-Saez, M. C., Ros, L., López-Cano, M., Nieto, M., Navarro, B., & Latorre, J. M. (2024).
+  Effect of popular songs from the reminiscence bump as autobiographical memory cues in aging: A
+  preliminary study using EEG. *Frontiers in Neuroscience*, 17, 1300751.
+  https://doi.org/10.3389/fnins.2023.1300751 — n=35, ages 61–73; preliminary.
 
 ### Discovery behavior and listening logs
 
@@ -1758,19 +1775,20 @@ forecastable quantity rather than a retrospective anecdote.
   https://skynetandebert.com/2015/04/22/music-was-better-back-then-when-do-we-stop-keeping-up-with-popular-music/
   — Spotify/Echo Nest analysis; mid-30s stabilization, steeper decline for men, parenthood effect.
   Re-analysis: https://www.statsignificant.com/p/when-do-we-stop-finding-new-music
-- Soundtracks of our lives: How age influences musical preferences (2025). *Adjunct Proceedings of
-  the 33rd ACM Conference on User Modeling, Adaptation and Personalization (UMAP '25)*.
+- Golubovikj, A. M., Ferwerda, B., Said, A., & Tkalcic, M. (2025). Soundtracks of our lives: How age
+  influences musical preferences. *Adjunct Proceedings of the 33rd ACM Conference on User Modeling,
+  Adaptation and Personalization (UMAP '25)*.
   https://dl.acm.org/doi/10.1145/3708319.3733673 · preprint: arXiv:2509.08337 — LFM-2b subset of
-  42,883 users; introduces Song's Sonic Age; shift to SSA 10–20y after ~40. *(Author byline not yet
-  verified against the published version — cited by title and venue pending confirmation.)*
+  42,883 users; introduces Song's Sonic Age; shift to SSA 10–20y after ~40.
 - Schedl, M., Brandl, S., Lesota, O., Parada-Cabaleiro, E., Penz, D., & Rekabsaz, N. (2022). LFM-2b: A
   dataset of enriched music listening events for recommender systems research and fairness analysis.
   *Proceedings of CHIIR '22*. https://dl.acm.org/doi/10.1145/3498366.3505791 — ~2B events, 120k+
   users, 2005–2020, with age/gender/country.
 - Schedl, M. (2016). The LFM-1b dataset for music retrieval and recommendation. *ICMR '16*.
   https://dl.acm.org/doi/10.1145/2911996.2912004
-- Vigliensoni, G., & Fujinaga, I. The Music Listening Histories Dataset.
-  https://www.semanticscholar.org/paper/a8c074ceff497c28021e965f04d02ed9b61c939f
+- Vigliensoni, G., & Fujinaga, I. (2017). The Music Listening Histories Dataset. *Proceedings of the
+  18th International Society for Music Information Retrieval Conference (ISMIR 2017)*, Suzhou,
+  96–102. https://archives.ismir.net/ismir2017/paper/000180.pdf
 
 ### Preference structure and personality
 
@@ -1813,7 +1831,7 @@ forecastable quantity rather than a retrospective anecdote.
   supplies the attribute taxonomy used in §14.7 (the phase-by-phase values there are inferred, not
   taken from this paper).
 - Hargreaves, D. J. (1982). The development of aesthetic reactions to music. *Psychology of Music*,
-  Special Issue. — the original "open-earedness" hypothesis.
+  Special Issue, 51-54. — the original "open-earedness" hypothesis.
 - Hargreaves, D. J., & Bonneville-Roussy, A. (2018). What is 'open-earedness', and how can it be
   measured? *Musicae Scientiae*, 22(2). https://journals.sagepub.com/doi/10.1177/1029864917697783
 - Louven, C. (2016). Hargreaves' "open-earedness": A critical discussion and new approach on the
@@ -1822,12 +1840,15 @@ forecastable quantity rather than a retrospective anecdote.
 
 ### Later life and motivation
 
-- Carstensen, L. L. Socioemotional selectivity theory — overview:
-  https://www.sciencedirect.com/topics/psychology/socioemotional-selectivity-theory
-- Listening to self-chosen music regulates induced negative affect for both younger and older adults.
-  *PLOS ONE*. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0218017
-- Positive and detached reappraisal of threatening music in younger and older adults:
-  https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7330061/
+- Carstensen, L. L., Isaacowitz, D. M., & Charles, S. T. (1999). Taking time seriously: A theory of
+  socioemotional selectivity. *American Psychologist*, 54(3), 165–181.
+  https://doi.org/10.1037/0003-066X.54.3.165
+- Groarke, J. M., & Hogan, M. J. (2019). Listening to self-chosen music regulates induced negative
+  affect for both younger and older adults. *PLOS ONE*, 14(6), e0218017.
+  https://doi.org/10.1371/journal.pone.0218017
+- Vieillard, S., Pinabiaux, C., & Bigand, E. (2020). Positive and detached reappraisal of threatening
+  music in younger and older adults. *Frontiers in Human Neuroscience*, 14, 216.
+  https://doi.org/10.3389/fnhum.2020.00216
 
 ### Cultural stratification
 
@@ -1836,10 +1857,11 @@ forecastable quantity rather than a retrospective anecdote.
 - de Vries, R., & Reeves, A. (2022). What does it mean to be a cultural omnivore? Conflicting visions
   of omnivorousness in empirical research. *Sociological Research Online*.
   https://journals.sagepub.com/doi/10.1177/13607804211006109
-- The instability of omnivorous cultural taste over time. *Poetics*.
-  https://www.sciencedirect.com/science/article/abs/pii/S0304422X15000418
+- Rossman, G., & Peterson, R. A. (2015). The instability of omnivorous cultural taste over time.
+  *Poetics*, 52, 139–153. https://www.sciencedirect.com/science/article/abs/pii/S0304422X15000418
 - Nault, J.-F., Baumann, S., Childress, C., & Rawlings, C. M. (2021). The social positions of taste
-  between and within music genres: From omnivore to snob. *European Journal of Cultural Studies*.
+  between and within music genres: From omnivore to snob. *European Journal of Cultural Studies*,
+  24(3), 717-740.
   https://journals.sagepub.com/doi/full/10.1177/13675494211006090
 - The effects of class, age, gender and race on musical preferences: An examination of the
   omnivore/univore framework.
@@ -1850,8 +1872,9 @@ forecastable quantity rather than a retrospective anecdote.
 - Anderson, A., Maystre, L., Mehrotra, R., Anderson, I., & Lalmas, M. (2020). Algorithmic effects on
   the diversity of consumption on Spotify. *Proceedings of The Web Conference 2020*.
   https://dl.acm.org/doi/10.1145/3366423.3380281
-- Reframing the filter bubble through diverse scale effects in online music consumption (2024).
-  *Scientific Reports*. https://www.nature.com/articles/s41598-024-75967-0
+- Reframing the filter bubble through diverse scale effects in online music consumption (2025).
+  *Scientific Reports*, 15, 4071. https://www.nature.com/articles/s41598-024-75967-0 — ~50,000 Deezer
+  users; accepted October 2024, published 2025.
 - Against filter bubbles: Diversified music recommendation via weighted hypergraph embedding
   learning. arXiv:2402.16299. https://arxiv.org/html/2402.16299v1
 
@@ -1881,7 +1904,8 @@ forecastable quantity rather than a retrospective anecdote.
 
 ### Genre and artist age demographics (§14 — Tier D, see the caveat closing §14)
 
-- Hip-hop/rap age skew, Nielsen data via headphonesaddict.com:
+- Hip-hop/rap age skew (favorite-genre shares by age bracket, attributed on the page to Statista,
+  undated), via headphonesaddict.com:
   https://headphonesaddict.com/rap-and-hip-hop-statistics/
 - Rock/country/classical age breakdowns via gitnux.org: https://gitnux.org/music-genre-statistics/
   and https://headphonesaddict.com/music-genre-statistics/
