@@ -1,6 +1,6 @@
 # Taste as It Ages: Age, Openness, and the Evolution of Music Preference Across the Listening Life
 
-*v4.2 — broadened full-length synthesis, with artist-level anchors and a derived audience-age model. Adds a scope-and-method section, a formal three-axis
+*v4.3 — broadened full-length synthesis, with artist-level anchors, a derived audience-age model, attribute profiles by age group, and song-level dissections. Adds a scope-and-method section, a formal three-axis
 framework, the large-sample age-trend literature that partially contradicts v3.0's "age-stable
 content" claim, developmental (pre-bump) and late-life sections, social-transmission and
 cultural-stratification accounts, cross-cultural evidence, a technology-as-moderator section, and a
@@ -41,7 +41,12 @@ audience demographics (§14.4), and a null model deriving expected audience age 
 year alone (§14.5) test the framework against concrete cases rather than aggregates. The null model's
 *failures* (§14.6) are the productive part: pre-war classical and 1950s jazz have no living
 formation cohort at all, which makes their audiences direct evidence that preference content is
-acquired in adulthood rather than carried forward from a formation window. It
+acquired in adulthood rather than carried forward from a formation window. Predicted
+attribute profiles by age group (§14.7) restate the whole arc in terms of tempo, dynamics, timbre,
+harmony, structure and lyric mode rather than genre, and locate its likeliest single driver: what
+music is *for* moves from social display to private regulation. Appendices B and C add an artist
+directory of ~85 acts with genre, MUSIC dimension and derived cohort age, and twelve song-level
+dissections. It
 closes with a protocol-grade empirical extension (§18) specified against LFM-2b — a public, age-labeled,
 two-billion-event Last.fm listening corpus that makes the previously "blocked on data access"
 test executable — and a tiered accounting of evidential strength (§19).
@@ -56,7 +61,7 @@ test executable — and a tiered accounting of evidential strength (§19).
 | v1.1 | §5 illustrative individual trajectory. |
 | v2.0 | Abstract/introduction brought into line with the full section list; references de-caveated. |
 | v3.0 | §6 population-level genre/artist age demographics, with an explicit non-peer-review caveat. |
-| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, a dated falsifiable forecast, and a release-date null model for audience age with its four deviation classes (§14.2–§14.6); the documented cross-generational interpolation case (§10).** |
+| **v4.0** | **Scope/method and evidence tiers (§2); formal three-axis framework (§3, §8); the large-sample age-trend literature that revises the old "age-stable content" claim (§7); engagement as a separate axis (§6); pre-bump development (§9); social transmission and the cascading bump (§10); cultural-stratification/omnivore accounts (§11); cross-cultural evidence (§12); streaming and algorithmic curation as a moderator (§16); later life (§17); protocol-grade empirical extension on a named public dataset (§18); tiered limitations (§19). Artist-level anchors, exogenous catalog shocks, a dated falsifiable forecast, and a release-date null model for audience age with its four deviation classes (§14.2–§14.6); predicted sound-attribute profiles per age group (§14.7); the documented cross-generational interpolation case (§10); an ~85-artist directory (Appendix B) and twelve song dissections (Appendix C).** |
 
 ---
 
@@ -978,6 +983,52 @@ artists have the largest residuals would identify cascade and acquisition catalo
 than by the anecdote used here.
 
 
+
+### 14.7 Sound-preference profiles by age group
+
+Genres are a coarse instrument: they bundle sonic properties with social meaning and commercial
+history, and they are historically unstable (§19.3). The third paper in the *Age trends* series —
+Bonneville-Roussy & Eerola (2018), *Musicae Scientiae* 22(3), 394–414 — attacks this directly, asking
+whether age trends in preference are driven by **intrinsic attributes of the music** rather than by
+genre labels. Their design had 481 adults rate preferences for 51 audio clips *and* for musical
+attributes grouped under **dynamics, pitch, structure, tempo, and timbre**, with MIR features
+extracted from the clips. Their dimensional groupings are worth stating because they cut differently
+from genre: **Intense** (metal, punk, rock), **Jazzy** (blues, funk, jazz, Latin, reggae), and
+**Unpretentious** (country, gospel, pop, R&B/soul).
+
+The profiles below use that five-attribute taxonomy as descriptive vocabulary, mapped onto §17's
+five phases. **An honest label is needed here.** The attribute *categories* are taken from
+Bonneville-Roussy & Eerola; the phase-by-phase attribute values are **inferred** from the genre-level
+age trends (§7.2), the engagement and context findings (§6), and the developmental sequence (§9) —
+they are not read off a published table of attribute-by-age coefficients. Searching for direct
+evidence that older listeners systematically prefer lower-arousal music turned up surprisingly
+little: it is widely assumed and thinly measured. Treat this section as **the framework's predicted
+attribute profile**, i.e. a set of hypotheses (testable via audio features on LFM-2b, §18), not as a
+finding.
+
+| Attribute | **Phase 0–1: Inheritance & commitment** (≤12) | **Phase 2: Formation** (13–24) | **Phase 3: Stabilization** (25–35) | **Phase 4: Drift** (35–60) | **Phase 5: Concentration** (60+) |
+|---|---|---|---|---|---|
+| **Tempo** | Fast, steady, unambiguous pulse | Fast to mid; danceable or mosh-able; tempo as energy signal | Mid; tempo becomes contextual (work, commute, chores) | Mid to slow; tolerance for slow-developing material rises | Slow to mid; tempo largely irrelevant to selection |
+| **Dynamics** | Compressed, loud, consistent | Loud, with dynamic contrast as drama (loud–quiet–loud) | Moderate; listening moves to environments where loud is impractical (§6) | Wide dynamic range tolerated and increasingly sought | Moderate; comfort and intelligibility over impact |
+| **Timbre** | Bright, clean, hook-forward | Distorted, aggressive, or heavily produced — timbre as identity marker | Mixed; production polish noticed rather than assumed | Acoustic, organic, and "warm" timbres gain ground (the Unpretentious/Jazzy shift, §7.2) | Familiar timbres strongly favored; novelty in timbre reads as noise |
+| **Pitch/harmony** | Diatonic, 3–4 chords, no modulation | Diatonic with attitude — power chords, modal-minor colorings | Widening: extended harmony, modal writing become legible | Harmonic complexity actively valued (jazz, classical acquisition, §14.6a) | Complexity retained if already acquired; rarely newly acquired |
+| **Structure** | Short (2–3 min), verse–chorus, high repetition | Verse–chorus with a payoff; the singalong chorus is the social unit | Longer forms tolerated; album-length listening returns for some | Long-form, through-composed, and improvised structures accessible | Familiar structures; repetition becomes a feature, not a limitation |
+| **Lyric mode** | Literal, comic, or absent | First-person, oppositional, identity-declarative | Retrospective, ambivalent | Narrative, elegiac, or lyrics de-emphasized entirely | Lyrics as memory cue more than as content |
+| **Function** (§6, §15) | Ambient, social, inherited | Identity display, peer bonding, emotional intensity | Mood regulation, focus, background | Mood regulation and nostalgia; private contexts dominate | Emotional meaning, memory, continuity (§15) |
+| **Exemplar register** | Blink-182, Green Day, chart pop | Oasis, Nirvana, MCR, Olivia Rodrigo, Kendrick Lamar | Radiohead, Arctic Monkeys, The National | Tool, Porcupine Tree, Steely Dan, Miles Davis, Johnny Cash | Classical repertoire, standards, formation-window catalog |
+
+**The single strongest pattern across the row.** Read left to right, one thing changes more than
+anything else: **what the music is for.** It moves from *social display* to *private regulation*.
+Every attribute shift follows from that — loud, fast, timbrally aggressive, lyrically declarative
+music is optimized for a shared room and a listener who needs to be seen liking it; harmonically
+complex, dynamically wide, slow-developing music is optimized for private attention. §6's finding
+that listening contexts privatize with age is therefore not one age trend among several. It is
+plausibly *the* mechanism generating most of the attribute profile above, and it makes a sharp
+prediction: **attribute drift should track the privatization of listening contexts more closely than
+it tracks age.** A 45-year-old who still listens mostly in social settings should show a younger
+attribute profile than their birth year predicts. That is testable, and it is not currently tested.
+
+
 ---
 
 ## 15. The far end: music in later life
@@ -1272,7 +1323,10 @@ adult acquisition (jazz, classical), household cascade, continuous production, a
 Fitting the null model on LFM-2b and ranking artists by residual would identify cascade and
 acquisition catalogs *empirically* rather than by the anecdote §14.6 relies on, and supplies a direct
 test of §14.6(b)'s distinguishing prediction: residuals should track parental household penetration,
-not critical canonicity.
+not critical canonicity. Appendix C proposes three audio-feature-measurable predictors of a positive
+residual — **low entry cost, timbral era-neutrality, and fragment-robustness** — which would turn
+"which old records find young audiences" into a forecastable quantity. **H9b:** the residual is
+predictable from audio features alone.
 
 ### 18.4 Analysis strategy
 
@@ -1455,6 +1509,222 @@ without re-reading. Tiers per §2.3.
 | 22 | Core audience age is derivable from peak year alone | §14.5 | — | Derivation from claim #1 | **Null model**, not a measurement; H9 tests it |
 | 23 | Pre-war classical and 1950s–60s jazz audiences cannot be bump-anchored | §14.6(a) | A (by construction) | No living formation cohort | Strongest evidence for adult acquisition / content drift |
 | 24 | Cascade catalogs track household penetration, not critical canonicity | §14.6(b) | — | Prediction | Untested; distinguishes cascade from quality |
+| 25 | Attribute profile shifts because listening's *function* moves from social display to private regulation | §14.7 | — | Inferred from §6 + §7.2 | **Predicted profile, not a finding**; testable via audio features |
+| 26 | Sync-rejuvenation candidates are predictable from timbral era-neutrality | App. C | — | Close reading of 12 tracks | Untested; H9b |
+
+
+---
+
+## Appendix B — Artist directory: genre, dimension, and derived cohort age
+
+A working reference for the artists named across §13–§14. **Peak year** is the approximate commercial
+or cultural peak and is contestable in most rows. **Derived cohort (2026)** applies §14.5's null
+model — `(2026 − peak) + 15…24` — and is a **model output, never a measurement**: it says where
+bump-anchored listeners *should* be, so that departures (the **Dev.** column) are visible. **MUSIC**
+gives the dimension the artist principally loads on (M = Mellow, U = Unpretentious, S = Sophisticated,
+I = Intense, C = Contemporary; §7.1). Deviation classes per §14.6: **(a)** adult acquisition,
+**(b)** household cascade, **(c)** continuous producer / stacked cohorts, **(d)** sync or virality
+rejuvenation. A blank Dev. column means the null model is expected to fit.
+
+| Artist | Genre | MUSIC | Peak | Derived cohort (2026) | Dev. |
+|---|---|---|---|---|---|
+| J.S. Bach, Mozart, Beethoven | Classical repertoire | S | pre-1830 | *no living cohort* | (a) |
+| Duke Ellington, Billie Holiday | Big band, vocal jazz | S/M | ~1940 | 101–110 | (a) |
+| Miles Davis (*Kind of Blue*) | Modal jazz | S | 1959 | 82–91 | (a) |
+| John Coltrane | Modal / free jazz | S | ~1964 | 77–86 | (a) |
+| Elvis Presley | Rock & roll | U/C | ~1957 | 84–93 | (b) |
+| The Beatles | Pop/rock | C/U | ~1967 | 74–83 | (b) |
+| The Beach Boys | Pop, art pop | M/U | ~1966 | 75–84 | (b) |
+| Bob Dylan | Folk, folk rock | S/U | ~1966 | 75–84 | (a)(c) |
+| Jimi Hendrix | Psychedelic rock | I | ~1968 | 73–82 | (b) |
+| Led Zeppelin | Hard rock | I | ~1971 | 70–79 | (b) |
+| King Crimson | Progressive rock | S/I | ~1972 | 69–78 | (a) |
+| Grateful Dead | Psychedelic / jam | M/S | ~1972 | 69–78 | **(b)** |
+| Yes, Genesis | Progressive rock | S | ~1973 | 68–77 | |
+| Pink Floyd | Progressive rock | S/M | ~1973 | 68–77 | (b) |
+| David Bowie | Art rock, glam | S/C | ~1973 | 68–77 | (b)(c) |
+| Stevie Wonder | Soul, funk | U/S | ~1974 | 67–76 | (a) |
+| Queen | Rock, arena pop | C/I | ~1976 | 65–74 | (b)(d) |
+| ABBA | Pop | C/U | ~1976 | 65–74 | **(b)** |
+| Fleetwood Mac | Soft rock | M/U | 1977 | 64–73 | **(b)(d)** |
+| Bob Marley | Reggae | U/M | ~1977 | 64–73 | (b) |
+| Dolly Parton | Country | U | ~1977 | 64–73 | (c) |
+| Willie Nelson | Country, outlaw | U | ~1978 | 63–72 | (c) |
+| Kraftwerk | Electronic | S/C | ~1978 | 63–72 | (a) |
+| Joy Division / New Order | Post-punk, synth | I/C | ~1980 | 61–70 | (a) |
+| Rush | Progressive rock | S/I | ~1981 | 60–69 | (b) |
+| Michael Jackson | Pop, R&B | C | 1982 | 59–68 | (b) |
+| The Cure | Post-punk, goth | M/I | ~1985 | 56–65 | (b) |
+| Madonna | Pop | C | ~1985 | 56–65 | (c) |
+| Kate Bush | Art pop | S/M | 1985 | 56–65 | **(d)** |
+| Iron Maiden | Heavy metal | I | ~1984 | 57–66 | (c) |
+| Prince | Funk, pop, rock | C/S | ~1984 | 57–66 | (b) |
+| Run-DMC | Hip-hop | C/I | ~1986 | 55–64 | |
+| Metallica | Thrash → metal | I | 1986–91 | 50–64 | **(c)(d)** |
+| Public Enemy | Hip-hop | I/C | ~1988 | 53–62 | (a) |
+| Guns N' Roses | Hard rock | I | ~1988 | 53–62 | |
+| N.W.A | Hip-hop | I/C | ~1989 | 52–61 | |
+| Depeche Mode | Synth-pop, electronic | C/I | ~1990 | 51–60 | |
+| Nirvana | Grunge | I | 1991 | 50–59 | **(b)(d)** |
+| A Tribe Called Quest | Hip-hop, jazz rap | S/C | ~1992 | 49–58 | (a) |
+| Dr. Dre / Snoop Dogg | Hip-hop, G-funk | C | ~1993 | 48–57 | |
+| Wu-Tang Clan | Hip-hop | I/C | 1993 | 48–57 | |
+| Nas | Hip-hop | S/C | ~1994 | 47–56 | |
+| Björk | Art pop, electronic | S | ~1995 | 46–55 | (a) |
+| Blur | Britpop | C/S | ~1995 | 46–55 | |
+| Oasis | Britpop | C/U | ~1995 | 46–55 | (d) |
+| Pulp | Britpop | C/S | ~1995 | 46–55 | |
+| Spice Girls | Pop | C | 1996 | 45–54 | (b) |
+| Radiohead | Alt rock → art rock | S | ~1997 | 44–53 | (a)(c) |
+| Dream Theater | Progressive metal | S/I | ~1992 | 49–58 | (c) |
+| Blink-182 | Pop-punk | C/I | 1999 | 42–51 | **(b)** |
+| Eminem | Hip-hop | I/C | ~2000 | 41–50 | |
+| Linkin Park | Nu metal | I/C | ~2001 | 40–49 | (d) |
+| Tool | Progressive metal | S/I | ~1998 | 43–52 | (a) |
+| Slipknot | Nu metal | I | ~2001 | 40–49 | |
+| Avril Lavigne | Pop-punk | C | 2002 | 39–48 | (b) |
+| The Strokes | Garage rock revival | C/I | ~2002 | 39–48 | |
+| Johnny Cash (*American* era) | Country, folk | U | 2002 | 39–48 | **(a)(b)** |
+| Porcupine Tree | Progressive rock | S | ~2005 | 36–45 | (a) |
+| Arctic Monkeys | Indie rock | C/I | 2006 | 35–44 | (c) |
+| My Chemical Romance | Emo, pop-punk | I/C | 2006 | 35–44 | |
+| Kanye West | Hip-hop | C/S | ~2007 | 34–43 | (c) |
+| Paramore | Pop-punk, emo | C/I | 2007 | 34–43 | (b) |
+| Amy Winehouse | Soul, jazz pop | U/S | ~2007 | 34–43 | (a) |
+| Fall Out Boy | Pop-punk | C | ~2006 | 35–44 | |
+| Taylor Swift | Country → pop | C/U | 2008– | *stacked, ~18–40* | **(c)** |
+| Adele | Soul-pop | U/M | 2011 | 30–39 | |
+| Daft Punk | Electronic | C/S | ~2013 | 28–37 | (b) |
+| Kendrick Lamar | Hip-hop | S/I | ~2013 | 28–37 | (c) |
+| Drake | Hip-hop, R&B | C | ~2015 | 26–35 | (c) |
+| Lorde | Alt pop | M/C | ~2013 | 28–37 | |
+| Bring Me the Horizon | Metalcore → alt | I/C | ~2013 | 28–37 | (c) |
+| The Weeknd | R&B, synth-pop | M/C | ~2016 | 25–34 | (c) |
+| Tyler, the Creator | Hip-hop, alt | S/C | ~2019 | 22–31 | |
+| Ghost | Occult rock, metal | I/C | ~2018 | 23–32 | |
+| BTS | K-pop | C | ~2018 | 23–32 | |
+| Billie Eilish | Alt pop | M/C | 2019 | 22–31 | |
+| Bad Bunny | Reggaeton, Latin trap | C | ~2021 | 20–29 | |
+| Olivia Rodrigo | Pop, pop-punk revival | C/I | 2021 | 20–29 | |
+| Polyphia | Instrumental prog | S | ~2022 | 19–28 | |
+| Sabrina Carpenter | Pop | C | ~2024 | 17–26 | |
+| Chappell Roan | Pop | C | ~2024 | 17–26 | |
+| Sleep Token | Progressive metal, alt | I/S | ~2023 | 18–27 | |
+
+**How to read the Dev. column.** Bold entries are the strongest violations. The pattern worth noting
+is that deviations cluster at the **top** of the table (adult acquisition, since no formation cohort
+survives) and at the **middle** (household cascade, since those are the records that were ambient in
+1990s and 2000s childhoods) — while the bottom third has almost none, because those artists have not
+existed long enough for any mechanism other than bump-anchoring to have operated on them yet. **The
+deviation column is therefore partly a clock.** Rows added to the bottom of this table in 2050 will
+have accumulated their own (b) and (d) marks.
+
+---
+
+## Appendix C — Song-level dissections
+
+Twelve tracks, each chosen because a specific structural property explains its age behavior. This is
+**analytic close reading, not measurement** (Tier D): the structural descriptions are conventional
+and checkable by ear or score, but the inferences drawn from them are interpretive. Durations and
+tempi are approximate and as commonly reported.
+
+**1. Blink-182 — "All the Small Things" (1999).** *Pop-punk; C/I.* ~2:48, three chords, no
+modulation, no key change, no bridge worth the name, a wordless "na-na" hook, lyrics comic and
+literal. Every property is optimized for **low cost of entry**: nothing in it requires prior
+listening experience to parse. That is exactly what §13's Phase 0–1 needs from a gateway record —
+it can be adopted at nine without any of the cultural knowledge that adopting, say, Radiohead at
+nine would demand. Gateway status is a structural property, not a marketing one.
+
+**2. Oasis — "Wonderwall" (1995).** *Britpop; C/U.* Capo at the second fret, a four-chord loop
+(Em7–G–Dsus4–A7sus4) that never resolves conventionally, mid-tempo, a chorus pitched in a range most
+untrained voices can shout. Its enduring function is **communal**: it is a song built to be sung by a
+room, which is precisely the Phase 2 requirement (§14.7 — the singalong chorus as the social unit).
+Its persistence at parties and football grounds three decades on is bump-anchoring made audible: the
+1995 cohort is now 46–55 and still supplies the room.
+
+**3. Nirvana — "Smells Like Teen Spirit" (1991).** *Grunge; I.* Four power chords, loud–quiet–loud
+dynamic architecture, lyrics semantically opaque to the point of being unquotable as argument. The
+opacity is the point — it permits projection, which is what identity-declarative listening (§4.3b)
+requires. **Its age behavior is anomalous and instructive**: derived cohort 50–59, yet it is
+continuously re-adopted by successive teenage cohorts. It is a formation-window record that keeps
+finding new formation windows, which is §14.6's cascade and §16.3's H6 in one track.
+
+**4. Metallica — "Master of Puppets" (1986).** *Thrash metal; I with S.* ~8.5 minutes, multiple
+tempo and feel changes, an extended clean-toned middle section with harmonized lead guitar, riff
+material developed rather than repeated. Structurally it is **Intense on the surface and
+Sophisticated underneath** — which is why it works as an §14.6(c)/(d) case: complex enough to reward
+the adult listener who acquired it, immediate enough that a 2022 teenager who met it via *Stranger
+Things* could take it on first contact.
+
+**5. Tool — "Lateralus" (2001).** *Progressive metal; S/I.* ~9:24; the chorus vocal syllable counts
+follow the Fibonacci sequence, and the metric cycle moves through 9/8, 8/8 and 7/8. This is a record
+that is **not adoptable without prior listening capital** — it presupposes tolerance for long form,
+odd meter, and delayed payoff. It is therefore almost never a gateway record and almost always an
+acquisition, which places it precisely where §13 places it: the adult phase, reached by drift rather
+than by formation.
+
+**6. Porcupine Tree — "Arriving Somewhere But Not Here" (2005).** *Progressive rock; S.* ~12 minutes,
+a slow-building first half, a heavy central section, ambient production. Its role in the framework is
+as a **bridge**: it is legible to a listener whose formation window was alternative or metal, while
+demanding the long-form attention that Phase 3–4 makes available (§14.7, Structure row). Records like
+this are how the content centroid actually moves — not by abandoning the old region but by extending
+from its edge.
+
+**7. Kate Bush — "Running Up That Hill" (1985).** *Art pop; S/M.* Fairlight CMI-driven, built on a
+repeating minor-mode ostinato with an unusually plain, insistent rhythmic bed under a wide vocal.
+The structural reason its 2022 revival worked: the **production is timbrally non-period-specific**.
+It does not sound like 1985 the way a gated-reverb rock record does, so a listener with no
+1980s reference frame hears no era signal to reject. Compare a record whose timbre is a dated
+identifier: those do not rejuvenate on sync. **Sync-rejuvenation candidates are predictable from
+timbre**, which is a testable claim and, as far as this review found, an untested one.
+
+**8. Fleetwood Mac — "Dreams" (1977).** *Soft rock; M/U.* Essentially two chords for its entire
+length, over an unvarying drum groove — the harmonic interest is almost nil and the record works
+entirely on feel, timbre, and vocal. Its 2020 TikTok revival is coherent with this: a track that is
+**structurally indifferent to where you enter it** survives being encountered as a 15-second
+fragment. Highly sectional music does not clip well; loop-based music does. That is a structural
+prediction about which catalog rejuvenates in a short-video era.
+
+**9. Miles Davis — "So What" (1959).** *Modal jazz; S.* 32-bar AABA, built on D Dorian with the
+bridge lifted a semitone to E♭ Dorian; harmonic motion is nearly absent by design. Its audience is
+the paper's cleanest §14.6(a) case: the derived cohort is **82–91**, so essentially every listener
+under 75 acquired it in adulthood. It also illustrates *why* such acquisition happens late — modal
+improvisation offers little to a listener without the harmonic vocabulary to hear what is being
+withheld. **Sophisticated-dimension material has a prerequisite structure**, and prerequisites take
+time to accumulate.
+
+**10. Johnny Cash — "Hurt" (2002, orig. Nine Inch Nails, 1994).** *Country/folk reading of industrial
+rock; U over I.* The same lyrics and chord sequence, restaged with acoustic guitar, piano, and a
+73-year-old voice. This is a **cascade running backwards**: rather than a young artist interpolating
+parental-era material (§10), an older artist recontextualized a record from the formation window of
+listeners then aged 23–32, and in doing so recruited that cohort to a catalog whose derived cohort
+was decades older. It is the clearest single demonstration that the Unpretentious dimension's
+age-rise (§7.2) can be *accelerated by repertoire choice* rather than waited out.
+
+**11. Paramore — "Misery Business" (2007) → Olivia Rodrigo — "good 4 u" (2021).** *Pop-punk; C/I.*
+Same energetic register, same declarative first-person lyric mode, same chorus architecture, 14 years
+apart — with the resemblance formally acknowledged via retroactive co-writing credit (§10). The pair
+is the framework's cascade documented on both ends: a record from one cohort's formation window
+supplying the template for the next one's, **without the younger audience necessarily encountering
+the original at all.** Any measure of cross-generational influence based on release-year listening
+distributions would miss this entirely.
+
+**12. ABBA — "Dancing Queen" (1976).** *Pop; C/U.* Dense multi-tracked vocal harmony, unambiguous
+major-key tonality, a descending piano figure as signature hook, lyric addressed to a
+seventeen-year-old. Derived cohort 65–74, yet it has one of the widest age spreads of any record in
+this appendix. §14.6(b)'s distinguishing test is visible here: ABBA carries little critical
+canonicity and enormous **household penetration**, and it is the second that predicts cascade. A
+record played at weddings is a record encoded during the open-eared period (§9) by every child in
+the room.
+
+**What the twelve have in common.** Three structural properties recur in every track that beats its
+derived cohort age: **low entry cost** (adoptable without prior listening capital), **timbral
+era-neutrality** (no dated production signal to reject), and **fragment-robustness** (survives being
+met out of context). None of the three is about quality, and all three are measurable with existing
+audio-feature tooling. That is a concrete addition to §18: **the residual in H9 should be predictable
+from audio features**, and if it is, "which old records will find young audiences" becomes a
+forecastable quantity rather than a retrospective anecdote.
+
 
 ---
 
@@ -1537,8 +1807,11 @@ without re-reading. Tiers per §2.3.
   of social influences as determinants of preferences. *Musicae Scientiae*, 22(2).
   https://journals.sagepub.com/doi/10.1177/1029864917704016
 - Bonneville-Roussy, A., & Eerola, T. (2018). Age trends in musical preferences in adulthood: 3.
-  Perceived musical attributes as intrinsic determinants of preferences. *Musicae Scientiae*, 22(3).
-  https://journals.sagepub.com/doi/10.1177/1029864917718606
+  Perceived musical attributes as intrinsic determinants of preferences. *Musicae Scientiae*, 22(3),
+  394–414. https://journals.sagepub.com/doi/10.1177/1029864917718606 — N=481 rating 51 audio clips
+  and attributes across dynamics, pitch, structure, tempo and timbre, with MIR features extracted;
+  supplies the attribute taxonomy used in §14.7 (the phase-by-phase values there are inferred, not
+  taken from this paper).
 - Hargreaves, D. J. (1982). The development of aesthetic reactions to music. *Psychology of Music*,
   Special Issue. — the original "open-earedness" hypothesis.
 - Hargreaves, D. J., & Bonneville-Roussy, A. (2018). What is 'open-earedness', and how can it be
