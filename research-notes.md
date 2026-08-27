@@ -188,6 +188,66 @@ replaces it.
 cohort column is a model output; Appendix C durations/tempi are approximate and the inferences are
 interpretive close reading, not measurement. None of it should be cited as audience data.
 
+## v4.3 — sound attributes and song-level dissection (2026-08-27)
+
+Third pass on artist/song references, going down a level from genre to sound.
+
+- **§14.7 sound-preference profiles by age group.** Grounded on **Bonneville-Roussy & Eerola (2018)**,
+  *Musicae Scientiae* 22(3) 394–414 — the third paper in the *Age trends* series, which is
+  specifically about whether age trends are driven by **intrinsic musical attributes** rather than
+  genre labels. N=481, 51 audio clips, attributes under **dynamics, pitch, structure, tempo,
+  timbre**, MIR features extracted. Their dimensional groupings: Intense (metal/punk/rock), Jazzy
+  (blues/funk/jazz/Latin/reggae), Unpretentious (country/gospel/pop/R&B/soul).
+  **Important caveat written into the paper:** I use their attribute *taxonomy* as vocabulary, but
+  the phase-by-phase attribute values are **inferred** from the genre-level trends, not read off a
+  published age×attribute table. Searching for direct evidence that older listeners prefer
+  lower-arousal music turned up remarkably little — it is widely assumed and thinly measured. The
+  section is labelled as the framework's *predicted* profile, i.e. hypotheses testable via audio
+  features on LFM-2b.
+  The strongest thing to come out of it: read across the rows and what actually changes is **what the
+  music is for** — social display → private regulation. Every attribute shift follows from that,
+  which promotes §6's privatization finding from one trend among several to plausibly *the*
+  generating mechanism. Prediction added: attribute drift should track privatization of listening
+  context more closely than age (a 45-year-old still listening socially should look younger than
+  their birth year predicts).
+
+- **Appendix B — artist directory, ~85 artists.** Columns: genre, MUSIC dimension, approximate peak
+  year, derived cohort age in 2026 (§14.5 null model), and deviation class (a/b/c/d per §14.6).
+  Runs from Bach (*no living cohort*) through Miles Davis (82–91), Beatles (74–83), Metallica
+  (50–64), Blur/Oasis (46–55), Blink-182 (42–51), MCR/Paramore (34–43), Billie Eilish (22–31) to
+  Sleep Token and Chappell Roan (17–27).
+  Noticed while building it: **the deviation column is partly a clock.** Deviations cluster at the
+  top (adult acquisition — no formation cohort survives) and the middle (household cascade — the
+  records ambient in 1990s/2000s childhoods), and are almost absent from the bottom third, because
+  those artists haven't existed long enough for anything but bump-anchoring to have acted on them.
+  Rows added in 2050 will accumulate their own (b) and (d) marks.
+
+- **Appendix C — twelve song dissections.** All Tier D / interpretive, structural descriptions
+  checkable by ear. Blink-182 "All the Small Things" (low entry cost as a *structural* property, not
+  a marketing one); Oasis "Wonderwall" (built for a room to sing); Nirvana "Smells Like Teen Spirit"
+  (a formation-window record that keeps finding new formation windows); Metallica "Master of
+  Puppets" (Intense on the surface, Sophisticated underneath — which is why it works for both the
+  acquirer and the 2022 teenager); Tool "Lateralus" (not adoptable without prior listening capital →
+  always an acquisition, never a gateway); Porcupine Tree "Arriving Somewhere But Not Here" (how the
+  centroid actually moves — extending from the edge of the old region, not abandoning it); Kate Bush
+  "Running Up That Hill" (**timbrally era-neutral**, so no era signal for a young listener to
+  reject); Fleetwood Mac "Dreams" (two chords, structurally indifferent to entry point → survives
+  being met as a 15-second clip); Miles Davis "So What" (cleanest adult-acquisition case, and shows
+  *why* it happens late — Sophisticated material has prerequisites); Johnny Cash "Hurt" (**a cascade
+  running backwards** — an older artist recruiting a younger cohort's formation-window material);
+  Paramore → Rodrigo (cascade documented on both ends, with the younger audience possibly never
+  hearing the original); ABBA "Dancing Queen" (household penetration, not canonicity).
+
+- **The synthesis at the end of Appendix C is the payoff and should probably be promoted into the
+  body in a future revision:** every track that beats its derived cohort age shares three properties
+  — **low entry cost**, **timbral era-neutrality**, and **fragment-robustness**. None is about
+  quality, and all three are measurable with existing audio-feature tooling. So H9's residual should
+  be *predictable from audio features*, which would turn "which old records will find young
+  audiences" from retrospective anecdote into a forecastable quantity. That is the most commercially
+  obvious idea in the paper and I have not seen it tested.
+
+- Appendix A now 27 rows.
+
 ## Still open after v4.0
 
 - **Author byline for the UMAP 2025 "Soundtracks of Our Lives" paper** — arXiv/ACM pages were
