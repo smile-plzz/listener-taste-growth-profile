@@ -152,6 +152,42 @@ of listing more names.
 is a model output. It should never be cited as audience data. If §18 ever runs, the fitted version
 replaces it.
 
+## v4.3 — attribute profiles and song-level dissection (2026-08-27)
+
+- **§14.7 sound-preference profiles by age group.** Uses Bonneville-Roussy & Eerola (2018,
+  *Musicae Scientiae* 22(3), 394–414; N=481, 51 clips) attribute taxonomy — **dynamics, pitch,
+  structure, tempo, timbre** — mapped across §17's five phases, plus lyric mode, function and
+  exemplar register. **Clearly labelled as the framework's *predicted* profile, not a finding**: the
+  categories are theirs, the phase values are inferred from §6/§7.2/§9. Worth flagging that a search
+  for direct evidence that older listeners prefer lower-arousal music turned up very little — it is
+  widely assumed and thinly measured. Real gap.
+  - Main payoff: read across the rows and the thing that changes most is **what music is for** —
+    social display → private regulation. That plausibly generates most of the attribute drift, and
+    makes a sharp prediction: attribute profile should track *privatization of listening context*
+    better than age. A 45-year-old who still listens socially should look younger than their birth
+    year predicts.
+- **Appendix B — artist directory**, ~85 acts: genre, MUSIC dimension, approximate peak, derived
+  cohort age in 2026, and deviation class. Note the deviation column is **partly a clock**:
+  deviations cluster at the top (adult acquisition — no surviving cohort) and middle (household
+  cascade — 1990s/2000s childhood ambient), and are nearly absent at the bottom because those
+  artists haven't existed long enough for anything but bump-anchoring to have acted on them.
+- **Appendix C — twelve song dissections**, each chosen because a structural property explains its
+  age behavior. Best ones: "So What" (modal jazz has a *prerequisite* structure, which is why
+  Sophisticated material is acquired late); "Running Up That Hill" (timbrally era-neutral, so a
+  listener with no 1980s frame hears no era signal to reject); "Dreams" (two chords, loop-based, so
+  it survives being met as a 15-second fragment — highly sectional music doesn't clip well); Cash's
+  "Hurt" (a cascade running *backwards*, an older artist recruiting a younger cohort's
+  formation-window material).
+  - Converging result: the three properties recurring in every track that beats its derived cohort
+    age are **low entry cost, timbral era-neutrality, fragment-robustness**. None is about quality
+    and all three are measurable with existing audio-feature tooling → **H9b** added: the H9 residual
+    should be predictable from audio features, making "which old records will find young audiences"
+    forecastable rather than anecdotal.
+
+**Caveats to carry:** §14.7 is a hypothesis table; Appendix B peak years are contestable and the
+cohort column is a model output; Appendix C durations/tempi are approximate and the inferences are
+interpretive close reading, not measurement. None of it should be cited as audience data.
+
 ## Still open after v4.0
 
 - **Author byline for the UMAP 2025 "Soundtracks of Our Lives" paper** — arXiv/ACM pages were
