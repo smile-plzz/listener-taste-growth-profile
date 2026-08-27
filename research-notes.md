@@ -2,6 +2,119 @@
 
 Running log — hypotheses, open questions, and sources still to check. Not part of the paper itself.
 
+## v4.0 — broadened to full-length synthesis (2026-08-27)
+
+The paper was expanded from 10 sections to 20 plus an appendix, and one of its central claims was
+**revised rather than extended**. What changed:
+
+### The substantive revision
+
+v1.0–v3.0 claimed preference *content* is essentially age-independent (personality-driven, stable).
+That inference does not survive the large-sample age-trend literature, which v3.0 had not located:
+
+- **Bonneville-Roussy, Rentfrow, Xu & Potter (2013)**, *JPSP* 105(4) — >250,000 respondents.
+  Engagement and self-rated importance of music **decline with age**; listening contexts **privatize**
+  (young people listen in many social settings, adults mostly in private).
+- **Bonneville-Roussy, Stillwell, Kosinski & Rust (2017)**, *Musicae Scientiae* — three age
+  trajectories: **upward** for Jazzy/Unpretentious, **stable** for Classical, **downward** for
+  Contemporary/Intense. Plus companion papers on social influences (2018, pt 2) and perceived
+  musical attributes (2018, pt 3), and the MPAM model.
+
+This is Tier A evidence against a Tier B inference, so it wins (see the paper's §2.3 tiering rule).
+The two-axis model was replaced with a **three-axis framework** — content $C$ (slow drift), breadth
+$B$ (non-monotonic), engagement $E$ (monotonic decline) — plus the era-weighting function $w_i(t)$,
+which is where the reminiscence bump actually lives. That relocation is what dissolves the
+"fixed vs. changing" contradiction: $w$ is fixed, $C$ drifts, and they were being conflated.
+
+### New sections and the sources behind them
+
+- **§2 scope/method + four-tier evidence scheme (A/B/C/D)** — applied consistently through the paper
+  and audited in Appendix A.
+- **§3, §8 formal framework** — $C$, $B$, $E$, $D$, $w$ defined so §18 can operationalize them.
+- **§5.2 independent corroboration of the discovery decline** — *"Soundtracks of Our Lives: How Age
+  Influences Musical Preferences"* (UMAP 2025, arXiv:2509.08337), LFM-2b subset of 42,883 users,
+  introduces **Song's Sonic Age**: preference tracks the listener's own age until ~40, then shifts to
+  SSA 10–20 years. This discharges v3.0's "Kalia is a single source" flag — partially; both are
+  Tier C. Note the two disagree on timing (~33 vs. ~40).
+- **§9 open-earedness (Hargreaves 1982; Hargreaves & Bonneville-Roussy 2018; Louven 2016)** — breadth
+  is high in early childhood, drops ~age 10–11, rebounds in young adulthood, declines later. This is
+  why breadth is now modeled as non-monotonic. Construct validity is disputed (Louven).
+- **§10 social transmission / cascading bump (Krumhansl & Zupnick 2013)** — secondary liking peak at
+  the *parents'* formation window. Combined with §6's privatization finding, this yields the paper's
+  best candidate unifying mechanism for the timing axis: the discovery decline may be the thinning of
+  a social music-transmission network rather than an individual-psychology effect. Promoted to H5.
+- **§11 cultural omnivore literature (Peterson 1992; de Vries & Reeves 2022; omnivore-instability
+  work)** — breadth as status resource, stratified by education/class, and *unstable over historical
+  time* (1992 omnivorousness had declined by 2002/2008). Main takeaway is a measurement warning:
+  stated liking-breadth ≠ revealed play-entropy, and the two literatures have been measuring one each.
+- **§12 cross-cultural (Greenberg et al. 2022, 53 countries; Chee, Leung & de Vries 2024, Malaysia
+  n=444)** — the Malaysia replication item from v3.0's "next steps" is now closed: MUSIC **partially**
+  replicates, with **Sophisticated and Intense virtually identical** and the rest less clean. Reading:
+  structure/arousal-based factors travel; genre-category-based factors are partly local market
+  structure.
+- **§15 later life (socioemotional selectivity theory)** — supplies the motivational account the
+  framework lacked. Constraint accounts (attention, thinning contexts) and selectivity accounts
+  (rational reallocation to known emotional payoff) make different predictions and have not been
+  compared in the music domain. Genuine gap.
+- **§16 streaming and algorithmic curation (Anderson et al. 2020, WWW; *Sci. Rep.* 2024 scale
+  effects)** — algorithmic listening is associated with reduced consumption diversity while high
+  diversity predicts retention; but the filter-bubble picture is scale-dependent and contested.
+  Important consequence: **platform data confounds developmental narrowing with algorithmic
+  narrowing**, and the same data is being used to measure both.
+- **§18 protocol-grade empirical extension** — see below.
+- **§19 limitations reorganized** into threats-to-conclusions / evidence-base / generality / review
+  method, including an admission that the review itself is non-systematic.
+- **Appendix A** — 18-row claim-to-evidence map with tiers.
+
+### The data-access blocker is largely gone
+
+v3.0 listed the empirical extension as blocked: personal Spotify exports are single-user. **LFM-2b**
+(Schedl et al., CHIIR 2022) resolves this — ~2B listening events, 120k+ users, Feb 2005–Mar 2020,
+with **age, gender, country** and genre/style annotations, public for research. Long enough to
+observe the same listener aging, which is what this whole literature lacks. §18 is now written as a
+pre-registration-grade protocol: seven hypotheses (H1–H7) each with a stated falsifier, operational
+definitions for every construct, analysis strategy, six named confounds, and an ethics/scope section.
+
+H1 (within-person content drift) is the highest-value single result available: the field has enormous
+cross-sectional evidence that taste drifts with age and **almost no evidence that any individual
+person's taste drifts**. H6 (streaming-native bump decoupling from release year) is the most
+interesting live hypothesis and has a closing window — it needs cohorts whose formation window fell
+entirely inside streaming to be old enough to measure.
+
+## Still open after v4.0
+
+- **Author byline for the UMAP 2025 "Soundtracks of Our Lives" paper** — arXiv/ACM pages were
+  blocked by the network egress proxy from this session; the paper currently cites it by title and
+  venue. Verify and add the byline. (Do not guess it.)
+- **Cohort vs. development.** Unresolved, and load-bearing for §7/§8/§17. Only H1 settles it.
+- **Kalia (2015) remains Tier C.** Primary post verified, but not peer-reviewed and without
+  replicable methods detail. §5.2 corroborates the shape, not the ~33 figure.
+- **Constraint vs. selectivity in late life** (§15) — not directly compared in the music domain.
+- **Categories 2 vs. 3 in §14** (young streaming-era discoverers vs. cascading-bump inheritors) —
+  indistinguishable without parental-cohort data, which no current dataset carries.
+- **Non-Western music, not just non-Western listeners.** Every cross-cultural study cited tests
+  reactions to *Western* music. The question of whether MUSIC-like dimensions organize listening in
+  other tonal/rhythmic traditions is essentially untouched here.
+- **Whether to actually run §18.** The protocol is specified; nothing has been executed. Decision
+  point for the project.
+
+## Hypotheses (now formalized as H1–H7 in the paper's §18)
+
+1. **H1** Within-person content drift matches the cross-sectional gradient (and is smaller).
+2. **H2** Behavioral replication of the bump, availability-normalized, multi-modal, with H2c
+   distinguishing developmental from pure-exposure accounts.
+3. **H3** The gender convergence: later bump peak *and* slower discovery decline in women, in one
+   dataset.
+4. **H4** Discovery decline is chart-following, not curiosity (new-to-world falls faster than
+   new-to-listener).
+5. **H5** Social-context proxies beat chronological age at predicting discovery rate.
+6. **H6** Streaming-native cohorts' bump decouples from release year.
+7. **H7** Breadth is non-monotonic across the observable age range.
+
+---
+
+# Pre-v4.0 log (retained)
+
 ## Confirmed, primary-sourced (updated 2026-08-06, second pass)
 
 - Reminiscence bump for music: adults disproportionately prefer/remember music from adolescence–mid
